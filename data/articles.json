@@ -1,32 +1,2293 @@
 [
   {
-    "id":"excel-flash-fill-001","title":"Excelのフラッシュフィルでデータ整形を効率化する","category":"excel","kind":"practical","summary":"入力例から規則性を推測し、氏名や文字列の分割・整形を支援する機能です。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"verified","evidence":"公式資料","confidence":"公式仕様","author":"Microsoft","sourceTitle":"Excel でフラッシュ フィルを使用する","sourceUrl":"https://support.microsoft.com/ja-jp/office/フラッシュ-フィルを使用する-3f9bcf1e-db93-4890-94a0-1578341f73f7","sourceDate":"","licenseNote":"Microsoft公式サポートページへのリンク。本文は独自の要約・解説。","image":"","tags":["Excel","データ整形","時短"],"related":["excel-table-002","power-query-003"],"sections":[{"heading":"どんな機能？","text":"フラッシュフィルは、入力された例からパターンを推測し、残りのセルに同じ形式の値を入力するExcelの機能です。たとえば、氏名の一覧から姓だけを取り出す例を1件入力すると、ほかの行も同じ規則で補完できます。"},{"heading":"仕事での使い方","list":["氏名から姓・名を分ける","メールアドレスからユーザー名部分を取り出す","表記ゆれを一定の形式に整える"]},{"heading":"注意点","text":"フラッシュフィルは入力例から規則を推測するため、複雑な例外が混ざると意図しない結果になることがあります。実行後は元データと照合し、重要なデータではサンプル確認だけで済ませないようにします。"}],"quiz":{"question":"フラッシュフィルを実行した後に必要なことは？","options":["結果を確認する","必ずPCを再起動する","元データを削除する"],"answer":0,"explanation":"入力例から規則を推測する機能なので、例外や誤った補完がないか確認します。"}
+    "id": "excel-flash-fill-001",
+    "title": "Excelのフラッシュフィルでデータ整形を効率化する",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "入力例から規則性を推測し、氏名や文字列の分割・整形を支援する機能です。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "verified",
+    "evidence": "公式資料",
+    "confidence": "公式仕様",
+    "author": "Microsoft",
+    "sourceTitle": "Excel でフラッシュ フィルを使用する",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/office/フラッシュ-フィルを使用する-3f9bcf1e-db93-4890-94a0-1578341f73f7",
+    "sourceDate": "",
+    "licenseNote": "Microsoft公式サポートページへのリンク。本文は独自の要約・解説。",
+    "image": "",
+    "tags": [
+      "Excel",
+      "データ整形",
+      "時短"
+    ],
+    "related": [
+      "excel-table-002",
+      "power-query-003"
+    ],
+    "sections": [
+      {
+        "heading": "どんな機能？",
+        "text": "フラッシュフィルは、入力された例からパターンを推測し、残りのセルに同じ形式の値を入力するExcelの機能です。たとえば、氏名の一覧から姓だけを取り出す例を1件入力すると、ほかの行も同じ規則で補完できます。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "氏名から姓・名を分ける",
+          "メールアドレスからユーザー名部分を取り出す",
+          "表記ゆれを一定の形式に整える"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "フラッシュフィルは入力例から規則を推測するため、複雑な例外が混ざると意図しない結果になることがあります。実行後は元データと照合し、重要なデータではサンプル確認だけで済ませないようにします。"
+      }
+    ],
+    "quiz": {
+      "question": "フラッシュフィルを実行した後に必要なことは？",
+      "options": [
+        "結果を確認する",
+        "必ずPCを再起動する",
+        "元データを削除する"
+      ],
+      "answer": 0,
+      "explanation": "入力例から規則を推測する機能なので、例外や誤った補完がないか確認します。"
+    }
   },
   {
-    "id":"excel-table-002","title":"Excelのテーブル機能でデータ管理を安定させる","category":"excel","kind":"practical","summary":"表をテーブル化すると、フィルターや書式、数式の管理がしやすくなります。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"verified","evidence":"公式資料","confidence":"公式仕様","author":"Microsoft","sourceTitle":"Excel のテーブルの概要","sourceUrl":"https://support.microsoft.com/ja-jp/excel","sourceDate":"","licenseNote":"Microsoft公式情報へのリンク。詳細な操作は利用中のExcelバージョンで確認してください。","image":"","tags":["Excel","表管理","データ整理"],"related":["excel-flash-fill-001","power-query-003"],"sections":[{"heading":"どんな機能？","text":"Excelのテーブルは、データ範囲をひとまとまりの表として扱う機能です。見出しにフィルターが付き、行を追加したときの書式や数式の引き継ぎも管理しやすくなります。"},{"heading":"仕事での使い方","list":["一覧表をテーブル化してフィルターを使う","列名を使った構造化参照で数式を読みやすくする","行追加時の範囲漏れを減らす"]},{"heading":"注意点","text":"集計表や帳票など、自由なセル配置が必要なシートすべてに適するわけではありません。テーブル化する前に、見出し行や空白行などデータ構造を整えます。"}],"quiz":{"question":"テーブル化の利点として適切なのは？","options":["データ範囲の管理やフィルターがしやすくなる","ブックの容量が必ずゼロになる","すべての数式が不要になる"],"answer":0,"explanation":"テーブルは一覧データの範囲や列を扱いやすくします。"}
+    "id": "excel-table-002",
+    "title": "Excelのテーブル機能でデータ管理を安定させる",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "表をテーブル化すると、フィルターや書式、数式の管理がしやすくなります。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "verified",
+    "evidence": "公式資料",
+    "confidence": "公式仕様",
+    "author": "Microsoft",
+    "sourceTitle": "Excel のテーブルの概要",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/excel",
+    "sourceDate": "",
+    "licenseNote": "Microsoft公式情報へのリンク。詳細な操作は利用中のExcelバージョンで確認してください。",
+    "image": "",
+    "tags": [
+      "Excel",
+      "表管理",
+      "データ整理"
+    ],
+    "related": [
+      "excel-flash-fill-001",
+      "power-query-003"
+    ],
+    "sections": [
+      {
+        "heading": "どんな機能？",
+        "text": "Excelのテーブルは、データ範囲をひとまとまりの表として扱う機能です。見出しにフィルターが付き、行を追加したときの書式や数式の引き継ぎも管理しやすくなります。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "一覧表をテーブル化してフィルターを使う",
+          "列名を使った構造化参照で数式を読みやすくする",
+          "行追加時の範囲漏れを減らす"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "集計表や帳票など、自由なセル配置が必要なシートすべてに適するわけではありません。テーブル化する前に、見出し行や空白行などデータ構造を整えます。"
+      }
+    ],
+    "quiz": {
+      "question": "テーブル化の利点として適切なのは？",
+      "options": [
+        "データ範囲の管理やフィルターがしやすくなる",
+        "ブックの容量が必ずゼロになる",
+        "すべての数式が不要になる"
+      ],
+      "answer": 0,
+      "explanation": "テーブルは一覧データの範囲や列を扱いやすくします。"
+    }
   },
   {
-    "id":"power-query-003","title":"Power Queryは繰り返しのデータ整形を助ける","category":"excel","kind":"practical","summary":"取り込み・変換の手順を保存し、同じ加工を更新時に再実行できます。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"公式資料","confidence":"公式仕様","author":"Microsoft","sourceTitle":"Power Query の概要","sourceUrl":"https://learn.microsoft.com/ja-jp/power-query/power-query-what-is-power-query","sourceDate":"","licenseNote":"Microsoft Learnへのリンク。","image":"","tags":["Excel","Power Query","自動化"],"related":["excel-table-002","excel-flash-fill-001"],"sections":[{"heading":"どんな機能？","text":"Power Queryは、ファイルやデータベースなどからデータを取り込み、列の削除・分割・型変換・結合などの加工手順を記録できる機能です。更新時に同じ手順を再実行できます。"},{"heading":"仕事での使い方","list":["毎月届くCSVの列や形式をそろえる","複数ファイルをまとめる","不要な列や空白行を取り除く"]},{"heading":"注意点","text":"元ファイルの列名や保存場所が変わると更新に失敗することがあります。最初に小さなサンプルで手順を作り、更新後の件数や値を確認します。"}],"quiz":{"question":"Power Queryの強みは？","options":["データ加工の手順を保存し、更新時に再利用できる","ネット接続なしでは一切使えない","Excelのセルを自動で着色するだけ"],"answer":0,"explanation":"Power Queryはデータの取り込みと変換の手順を再利用できることが大きな特徴です。"}
+    "id": "power-query-003",
+    "title": "Power Queryは繰り返しのデータ整形を助ける",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "取り込み・変換の手順を保存し、同じ加工を更新時に再実行できます。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "公式資料",
+    "confidence": "公式仕様",
+    "author": "Microsoft",
+    "sourceTitle": "Power Query の概要",
+    "sourceUrl": "https://learn.microsoft.com/ja-jp/power-query/power-query-what-is-power-query",
+    "sourceDate": "",
+    "licenseNote": "Microsoft Learnへのリンク。",
+    "image": "",
+    "tags": [
+      "Excel",
+      "Power Query",
+      "自動化"
+    ],
+    "related": [
+      "excel-table-002",
+      "excel-flash-fill-001"
+    ],
+    "sections": [
+      {
+        "heading": "どんな機能？",
+        "text": "Power Queryは、ファイルやデータベースなどからデータを取り込み、列の削除・分割・型変換・結合などの加工手順を記録できる機能です。更新時に同じ手順を再実行できます。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "毎月届くCSVの列や形式をそろえる",
+          "複数ファイルをまとめる",
+          "不要な列や空白行を取り除く"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "元ファイルの列名や保存場所が変わると更新に失敗することがあります。最初に小さなサンプルで手順を作り、更新後の件数や値を確認します。"
+      }
+    ],
+    "quiz": {
+      "question": "Power Queryの強みは？",
+      "options": [
+        "データ加工の手順を保存し、更新時に再利用できる",
+        "ネット接続なしでは一切使えない",
+        "Excelのセルを自動で着色するだけ"
+      ],
+      "answer": 0,
+      "explanation": "Power Queryはデータの取り込みと変換の手順を再利用できることが大きな特徴です。"
+    }
   },
   {
-    "id":"windows-clipboard-004","title":"Windowsのクリップボード履歴でコピー作業を効率化","category":"windows","kind":"practical","summary":"Win + Vで過去にコピーした項目を呼び出せます。","minutes":1,"published":"2026-11-15","updated":"2026-11-15","status":"verified","evidence":"公式資料","confidence":"公式仕様","author":"Microsoft","sourceTitle":"Windows のクリップボード","sourceUrl":"https://support.microsoft.com/ja-jp/windows/クリップボードを使用する","sourceDate":"","licenseNote":"Microsoft公式サポートへのリンク。利用環境のポリシーに従ってください。","image":"","tags":["Windows","ショートカット","時短"],"related":["windows-virtual-desktop-005"],"sections":[{"heading":"どんな機能？","text":"Windowsのクリップボード履歴を有効にすると、Win + Vで最近コピーしたテキストや画像などを一覧から選べます。通常のCtrl + Vは直前のコピーを貼り付けます。"},{"heading":"仕事での使い方","list":["複数の項目を順番にコピーしておく","定型文や番号を切り替えて貼り付ける","コピーし直す手間を減らす"]},{"heading":"注意点","text":"共有PCや機密情報を扱う端末では、履歴に機微情報が残る可能性に注意します。組織のセキュリティルールに従い、必要に応じて履歴を消去してください。"}],"quiz":{"question":"クリップボード履歴を開くショートカットは？","options":["Win + V","Alt + F4","Ctrl + P"],"answer":0,"explanation":"WindowsキーとVキーでクリップボード履歴を開きます。"}
+    "id": "windows-clipboard-004",
+    "title": "Windowsのクリップボード履歴でコピー作業を効率化",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "Win + Vで過去にコピーした項目を呼び出せます。",
+    "minutes": 1,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "verified",
+    "evidence": "公式資料",
+    "confidence": "公式仕様",
+    "author": "Microsoft",
+    "sourceTitle": "Windows のクリップボード",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/windows/クリップボードを使用する",
+    "sourceDate": "",
+    "licenseNote": "Microsoft公式サポートへのリンク。利用環境のポリシーに従ってください。",
+    "image": "",
+    "tags": [
+      "Windows",
+      "ショートカット",
+      "時短"
+    ],
+    "related": [
+      "windows-virtual-desktop-005"
+    ],
+    "sections": [
+      {
+        "heading": "どんな機能？",
+        "text": "Windowsのクリップボード履歴を有効にすると、Win + Vで最近コピーしたテキストや画像などを一覧から選べます。通常のCtrl + Vは直前のコピーを貼り付けます。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "複数の項目を順番にコピーしておく",
+          "定型文や番号を切り替えて貼り付ける",
+          "コピーし直す手間を減らす"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "共有PCや機密情報を扱う端末では、履歴に機微情報が残る可能性に注意します。組織のセキュリティルールに従い、必要に応じて履歴を消去してください。"
+      }
+    ],
+    "quiz": {
+      "question": "クリップボード履歴を開くショートカットは？",
+      "options": [
+        "Win + V",
+        "Alt + F4",
+        "Ctrl + P"
+      ],
+      "answer": 0,
+      "explanation": "WindowsキーとVキーでクリップボード履歴を開きます。"
+    }
   },
   {
-    "id":"windows-virtual-desktop-005","title":"仮想デスクトップで作業スペースを分ける","category":"windows","kind":"practical","summary":"用途ごとにデスクトップを分け、ウィンドウの散らかりを抑えます。","minutes":1,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"公式資料","confidence":"公式仕様","author":"Microsoft","sourceTitle":"Windows の複数のデスクトップ","sourceUrl":"https://support.microsoft.com/ja-jp/windows/複数のデスクトップを使用する","sourceDate":"","licenseNote":"Microsoft公式サポートへのリンク。","image":"","tags":["Windows","整理整頓","集中"],"related":["windows-clipboard-004"],"sections":[{"heading":"どんな機能？","text":"仮想デスクトップを使うと、1台のPC上で複数のデスクトップを作成し、用途ごとにウィンドウを分けられます。"},{"heading":"仕事での使い方","list":["デスクトップ1を通常業務用にする","デスクトップ2を資料調査用にする","会議用のウィンドウを別の場所にまとめる"]},{"heading":"注意点","text":"デスクトップを分けても、PCの処理能力や画面の物理的な広さが増えるわけではありません。自分が迷わない数と名前で運用します。"}],"quiz":{"question":"仮想デスクトップの主な目的は？","options":["作業ウィンドウを用途ごとに整理する","PCのメモリを増やす","インターネット速度を上げる"],"answer":0,"explanation":"用途別にウィンドウを整理して切り替えやすくする機能です。"}
+    "id": "windows-virtual-desktop-005",
+    "title": "仮想デスクトップで作業スペースを分ける",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "用途ごとにデスクトップを分け、ウィンドウの散らかりを抑えます。",
+    "minutes": 1,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "公式資料",
+    "confidence": "公式仕様",
+    "author": "Microsoft",
+    "sourceTitle": "Windows の複数のデスクトップ",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/windows/複数のデスクトップを使用する",
+    "sourceDate": "",
+    "licenseNote": "Microsoft公式サポートへのリンク。",
+    "image": "",
+    "tags": [
+      "Windows",
+      "整理整頓",
+      "集中"
+    ],
+    "related": [
+      "windows-clipboard-004"
+    ],
+    "sections": [
+      {
+        "heading": "どんな機能？",
+        "text": "仮想デスクトップを使うと、1台のPC上で複数のデスクトップを作成し、用途ごとにウィンドウを分けられます。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "デスクトップ1を通常業務用にする",
+          "デスクトップ2を資料調査用にする",
+          "会議用のウィンドウを別の場所にまとめる"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "デスクトップを分けても、PCの処理能力や画面の物理的な広さが増えるわけではありません。自分が迷わない数と名前で運用します。"
+      }
+    ],
+    "quiz": {
+      "question": "仮想デスクトップの主な目的は？",
+      "options": [
+        "作業ウィンドウを用途ごとに整理する",
+        "PCのメモリを増やす",
+        "インターネット速度を上げる"
+      ],
+      "answer": 0,
+      "explanation": "用途別にウィンドウを整理して切り替えやすくする機能です。"
+    }
   },
   {
-    "id":"psychology-task-switching-006","title":"マルチタスクとタスク切り替えの負担","category":"psychology","kind":"research","summary":"複数作業を同時に行うように見えても、注意の切り替えが発生する場合があります。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"査読研究","confidence":"研究知見・適用範囲に注意","author":"Rubinstein, Meyer, Evans","sourceTitle":"Executive Control of Cognitive Processes in Task Switching","sourceUrl":"https://doi.org/10.1037/0096-3445.129.4.763","sourceDate":"2001","licenseNote":"原著論文の書誌情報・DOIへのリンク。論文本文の転載ではありません。","image":"","tags":["心理学","注意","生産性"],"related":["psychology-choice-007"],"sections":[{"heading":"どんな知識？","text":"複数の課題を切り替えるとき、目標やルールを切り替えるための認知的な処理が必要になります。課題の切り替えには時間コストが生じることが、実験研究で検討されています。"},{"heading":"仕事への応用","list":["集中が必要な作業中は通知を減らす","似た種類の作業をまとめる","頻繁に中断される仕事では再開地点をメモする"]},{"heading":"研究上の注意","text":"実験室で測定された課題切り替えコストを、そのまま全ての職場業務に当てはめることはできません。作業の種類や熟練度、環境によって影響は変わります。『マルチタスクは常に悪い』という単純な結論にしないことが大切です。"}],"quiz":{"question":"タスク切り替えで生じうる負担は？","options":["目標やルールを切り替える認知的コスト","必ず視力が低下すること","PCの電力消費だけ"],"answer":0,"explanation":"課題切り替えでは、認知的な制御や再設定に時間がかかることがあります。"}
+    "id": "psychology-task-switching-006",
+    "title": "マルチタスクとタスク切り替えの負担",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "複数作業を同時に行うように見えても、注意の切り替えが発生する場合があります。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "査読研究",
+    "confidence": "研究知見・適用範囲に注意",
+    "author": "Rubinstein, Meyer, Evans",
+    "sourceTitle": "Executive Control of Cognitive Processes in Task Switching",
+    "sourceUrl": "https://doi.org/10.1037/0096-3445.129.4.763",
+    "sourceDate": "2001",
+    "licenseNote": "原著論文の書誌情報・DOIへのリンク。論文本文の転載ではありません。",
+    "image": "",
+    "tags": [
+      "心理学",
+      "注意",
+      "生産性"
+    ],
+    "related": [
+      "psychology-choice-007"
+    ],
+    "sections": [
+      {
+        "heading": "どんな知識？",
+        "text": "複数の課題を切り替えるとき、目標やルールを切り替えるための認知的な処理が必要になります。課題の切り替えには時間コストが生じることが、実験研究で検討されています。"
+      },
+      {
+        "heading": "仕事への応用",
+        "list": [
+          "集中が必要な作業中は通知を減らす",
+          "似た種類の作業をまとめる",
+          "頻繁に中断される仕事では再開地点をメモする"
+        ]
+      },
+      {
+        "heading": "研究上の注意",
+        "text": "実験室で測定された課題切り替えコストを、そのまま全ての職場業務に当てはめることはできません。作業の種類や熟練度、環境によって影響は変わります。『マルチタスクは常に悪い』という単純な結論にしないことが大切です。"
+      }
+    ],
+    "quiz": {
+      "question": "タスク切り替えで生じうる負担は？",
+      "options": [
+        "目標やルールを切り替える認知的コスト",
+        "必ず視力が低下すること",
+        "PCの電力消費だけ"
+      ],
+      "answer": 0,
+      "explanation": "課題切り替えでは、認知的な制御や再設定に時間がかかることがあります。"
+    }
   },
   {
-    "id":"psychology-choice-007","title":"選択肢が多いと決断が難しくなることがある","category":"psychology","kind":"research","summary":"選択肢の数や複雑さが、選択行動に影響する場合があります。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"査読研究・レビュー","confidence":"条件依存・一律ではない","author":"Scheibehenne, Greifeneder, Todd","sourceTitle":"Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload","sourceUrl":"https://doi.org/10.1037/a0016892","sourceDate":"2010","licenseNote":"メタ分析論文の書誌情報・DOIへのリンク。","image":"","tags":["心理学","意思決定","選択"],"related":["psychology-task-switching-006"],"sections":[{"heading":"どんな知識？","text":"選択肢が多いほど必ず選べなくなるわけではありません。選択肢の複雑さ、好みの明確さ、判断の難しさなどの条件によって、選択過多の影響が現れる場合があります。"},{"heading":"仕事への応用","list":["候補を比較する評価軸を先に決める","候補を段階的に絞り込む","選択肢の数だけでなく違いを分かりやすくする"]},{"heading":"研究上の注意","text":"選択過多の効果は研究条件によって異なり、常に再現される単純な法則ではありません。『選択肢は少ないほどよい』と決めつけず、選ぶ人と状況を考えます。"}],"quiz":{"question":"選択肢が多いことの影響について正しい説明は？","options":["状況や選択肢の性質によって影響が変わる","必ず全員の判断力を下げる","選択肢の数は判断に一切関係しない"],"answer":0,"explanation":"研究では条件によって効果が異なるため、一律の結論は避けます。"}
+    "id": "psychology-choice-007",
+    "title": "選択肢が多いと決断が難しくなることがある",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "選択肢の数や複雑さが、選択行動に影響する場合があります。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "査読研究・レビュー",
+    "confidence": "条件依存・一律ではない",
+    "author": "Scheibehenne, Greifeneder, Todd",
+    "sourceTitle": "Can There Ever Be Too Many Options? A Meta-Analytic Review of Choice Overload",
+    "sourceUrl": "https://doi.org/10.1037/a0016892",
+    "sourceDate": "2010",
+    "licenseNote": "メタ分析論文の書誌情報・DOIへのリンク。",
+    "image": "",
+    "tags": [
+      "心理学",
+      "意思決定",
+      "選択"
+    ],
+    "related": [
+      "psychology-task-switching-006"
+    ],
+    "sections": [
+      {
+        "heading": "どんな知識？",
+        "text": "選択肢が多いほど必ず選べなくなるわけではありません。選択肢の複雑さ、好みの明確さ、判断の難しさなどの条件によって、選択過多の影響が現れる場合があります。"
+      },
+      {
+        "heading": "仕事への応用",
+        "list": [
+          "候補を比較する評価軸を先に決める",
+          "候補を段階的に絞り込む",
+          "選択肢の数だけでなく違いを分かりやすくする"
+        ]
+      },
+      {
+        "heading": "研究上の注意",
+        "text": "選択過多の効果は研究条件によって異なり、常に再現される単純な法則ではありません。『選択肢は少ないほどよい』と決めつけず、選ぶ人と状況を考えます。"
+      }
+    ],
+    "quiz": {
+      "question": "選択肢が多いことの影響について正しい説明は？",
+      "options": [
+        "状況や選択肢の性質によって影響が変わる",
+        "必ず全員の判断力を下げる",
+        "選択肢の数は判断に一切関係しない"
+      ],
+      "answer": 0,
+      "explanation": "研究では条件によって効果が異なるため、一律の結論は避けます。"
+    }
   },
   {
-    "id":"ai-hallucination-008","title":"生成AIの回答はなぜ間違うことがあるのか","category":"ai","kind":"research","summary":"生成AIはもっともらしい文章を生成しても、事実確認を保証する仕組みではありません。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"公的研究機関・技術資料","confidence":"技術的説明・モデルごとに差","author":"NIST","sourceTitle":"Artificial Intelligence Risk Management Framework","sourceUrl":"https://www.nist.gov/itl/ai-risk-management-framework","sourceDate":"2023","licenseNote":"NISTの公開フレームワークへのリンク。","image":"","tags":["AI","情報リテラシー","リスク"],"related":["psychology-task-switching-006"],"sections":[{"heading":"どんな知識？","text":"生成AIは、入力に続く可能性が高い内容を生成する仕組みを基礎としており、回答の流暢さと事実の正確さは同じではありません。誤った情報や根拠のない説明を生成することがあります。"},{"heading":"仕事での注意","list":["数値・法律・規程・出典は一次情報で確認する","重要な判断をAIの回答だけで確定しない","確認できない内容は未確認として扱う"]},{"heading":"注意点","text":"AIの性能やリスクはモデル・用途・更新時期によって異なります。この記事はAIを使う際の情報リテラシーを説明するもので、AIの回答を正しいと保証するものではありません。"}],"quiz":{"question":"生成AIの回答について正しいのは？","options":["流暢でも事実と異なる場合がある","必ず一次情報を引用している","間違いを生成することはない"],"answer":0,"explanation":"文章の自然さと事実の正確さは別なので、重要事項は一次情報で確認します。"}
+    "id": "ai-hallucination-008",
+    "title": "生成AIの回答はなぜ間違うことがあるのか",
+    "category": "ai",
+    "kind": "research",
+    "summary": "生成AIはもっともらしい文章を生成しても、事実確認を保証する仕組みではありません。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "公的研究機関・技術資料",
+    "confidence": "技術的説明・モデルごとに差",
+    "author": "NIST",
+    "sourceTitle": "Artificial Intelligence Risk Management Framework",
+    "sourceUrl": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "sourceDate": "2023",
+    "licenseNote": "NISTの公開フレームワークへのリンク。",
+    "image": "",
+    "tags": [
+      "AI",
+      "情報リテラシー",
+      "リスク"
+    ],
+    "related": [
+      "psychology-task-switching-006"
+    ],
+    "sections": [
+      {
+        "heading": "どんな知識？",
+        "text": "生成AIは、入力に続く可能性が高い内容を生成する仕組みを基礎としており、回答の流暢さと事実の正確さは同じではありません。誤った情報や根拠のない説明を生成することがあります。"
+      },
+      {
+        "heading": "仕事での注意",
+        "list": [
+          "数値・法律・規程・出典は一次情報で確認する",
+          "重要な判断をAIの回答だけで確定しない",
+          "確認できない内容は未確認として扱う"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "AIの性能やリスクはモデル・用途・更新時期によって異なります。この記事はAIを使う際の情報リテラシーを説明するもので、AIの回答を正しいと保証するものではありません。"
+      }
+    ],
+    "quiz": {
+      "question": "生成AIの回答について正しいのは？",
+      "options": [
+        "流暢でも事実と異なる場合がある",
+        "必ず一次情報を引用している",
+        "間違いを生成することはない"
+      ],
+      "answer": 0,
+      "explanation": "文章の自然さと事実の正確さは別なので、重要事項は一次情報で確認します。"
+    }
   },
   {
-    "id":"work-5why-009","title":"5Whyで問題の原因を掘り下げる","category":"improvement","kind":"practical","summary":"問題に対して「なぜ」を繰り返し、表面的な症状だけでなく背景要因を探ります。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"方法論・公的品質資料を要確認","confidence":"手法紹介・万能ではない","author":"WORK HACK LIBRARY 編集","sourceTitle":"参考：ASQ Root Cause Analysis","sourceUrl":"https://asq.org/quality-resources/root-cause-analysis","sourceDate":"","licenseNote":"手法の概要を独自に説明。実務では複数要因や証拠を確認してください。","image":"","tags":["業務改善","問題解決","原因分析"],"related":["work-standardization-010"],"sections":[{"heading":"どんな方法？","text":"5Whyは、発生した問題に対して「なぜ起きたのか」を繰り返し問い、原因を掘り下げるための方法です。必ず5回質問するという意味ではなく、根拠のある原因にたどり着くことが目的です。"},{"heading":"仕事での使い方","list":["事実として確認できる問題を定義する","原因候補を関係者と確認する","対策後に再発していないか確認する"]},{"heading":"注意点","text":"原因が一つとは限りません。人の注意不足だけで結論づけず、手順・情報・設備・負荷などの仕組みも調べます。質問回数を形式的に5回にする必要はありません。"}],"quiz":{"question":"5Whyで大切なのは？","options":["証拠を確認しながら原因を掘り下げる","必ず5回で終わらせる","担当者を責めること"],"answer":0,"explanation":"回数ではなく、事実に基づいて原因を見極めることが重要です。"}
+    "id": "work-5why-009",
+    "title": "5Whyで問題の原因を掘り下げる",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "問題に対して「なぜ」を繰り返し、表面的な症状だけでなく背景要因を探ります。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "方法論・公的品質資料を要確認",
+    "confidence": "手法紹介・万能ではない",
+    "author": "WORK HACK LIBRARY 編集",
+    "sourceTitle": "参考：ASQ Root Cause Analysis",
+    "sourceUrl": "https://asq.org/quality-resources/root-cause-analysis",
+    "sourceDate": "",
+    "licenseNote": "手法の概要を独自に説明。実務では複数要因や証拠を確認してください。",
+    "image": "",
+    "tags": [
+      "業務改善",
+      "問題解決",
+      "原因分析"
+    ],
+    "related": [
+      "work-standardization-010"
+    ],
+    "sections": [
+      {
+        "heading": "どんな方法？",
+        "text": "5Whyは、発生した問題に対して「なぜ起きたのか」を繰り返し問い、原因を掘り下げるための方法です。必ず5回質問するという意味ではなく、根拠のある原因にたどり着くことが目的です。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "事実として確認できる問題を定義する",
+          "原因候補を関係者と確認する",
+          "対策後に再発していないか確認する"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "原因が一つとは限りません。人の注意不足だけで結論づけず、手順・情報・設備・負荷などの仕組みも調べます。質問回数を形式的に5回にする必要はありません。"
+      }
+    ],
+    "quiz": {
+      "question": "5Whyで大切なのは？",
+      "options": [
+        "証拠を確認しながら原因を掘り下げる",
+        "必ず5回で終わらせる",
+        "担当者を責めること"
+      ],
+      "answer": 0,
+      "explanation": "回数ではなく、事実に基づいて原因を見極めることが重要です。"
+    }
   },
   {
-    "id":"work-standardization-010","title":"標準化は仕事の属人化とミスを減らす土台になる","category":"improvement","kind":"practical","summary":"作業の手順・判断基準・例外対応を共有できる形にします。","minutes":2,"published":"2026-11-15","updated":"2026-11-15","status":"review","evidence":"品質管理の方法論","confidence":"実務原則・状況に応じて調整","author":"WORK HACK LIBRARY 編集","sourceTitle":"参考：ASQ Quality Resources","sourceUrl":"https://asq.org/quality-resources","sourceDate":"","licenseNote":"一般的な業務改善の解説。組織の規程や実態に合わせて運用してください。","image":"","tags":["業務改善","標準化","ミス防止"],"related":["work-5why-009"],"sections":[{"heading":"どんな考え方？","text":"標準化は、作業の手順や判断基準を共有し、担当者によるばらつきを抑える取り組みです。単に手順書を作るだけでなく、実際に使われ、改善されることが重要です。"},{"heading":"仕事での使い方","list":["作業の開始条件・完了条件を明確にする","通常手順と例外対応を分けて記載する","現場で使った人から改善点を集める"]},{"heading":"注意点","text":"標準化は状況に合わない手順を固定することではありません。現場の変化に合わせて見直し、判断が必要な部分は判断基準も記載します。"}],"quiz":{"question":"実用的な標準化に必要なのは？","options":["使われ方を確認して継続的に見直す","一度作った手順書を永久に変更しない","例外をすべて無視する"],"answer":0,"explanation":"標準は現場で使い、変化に合わせて改善していくことが重要です。"}
+    "id": "work-standardization-010",
+    "title": "標準化は仕事の属人化とミスを減らす土台になる",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "作業の手順・判断基準・例外対応を共有できる形にします。",
+    "minutes": 2,
+    "published": "2026-11-15",
+    "updated": "2026-11-15",
+    "status": "review",
+    "evidence": "品質管理の方法論",
+    "confidence": "実務原則・状況に応じて調整",
+    "author": "WORK HACK LIBRARY 編集",
+    "sourceTitle": "参考：ASQ Quality Resources",
+    "sourceUrl": "https://asq.org/quality-resources",
+    "sourceDate": "",
+    "licenseNote": "一般的な業務改善の解説。組織の規程や実態に合わせて運用してください。",
+    "image": "",
+    "tags": [
+      "業務改善",
+      "標準化",
+      "ミス防止"
+    ],
+    "related": [
+      "work-5why-009"
+    ],
+    "sections": [
+      {
+        "heading": "どんな考え方？",
+        "text": "標準化は、作業の手順や判断基準を共有し、担当者によるばらつきを抑える取り組みです。単に手順書を作るだけでなく、実際に使われ、改善されることが重要です。"
+      },
+      {
+        "heading": "仕事での使い方",
+        "list": [
+          "作業の開始条件・完了条件を明確にする",
+          "通常手順と例外対応を分けて記載する",
+          "現場で使った人から改善点を集める"
+        ]
+      },
+      {
+        "heading": "注意点",
+        "text": "標準化は状況に合わない手順を固定することではありません。現場の変化に合わせて見直し、判断が必要な部分は判断基準も記載します。"
+      }
+    ],
+    "quiz": {
+      "question": "実用的な標準化に必要なのは？",
+      "options": [
+        "使われ方を確認して継続的に見直す",
+        "一度作った手順書を永久に変更しない",
+        "例外をすべて無視する"
+      ],
+      "answer": 0,
+      "explanation": "標準は現場で使い、変化に合わせて改善していくことが重要です。"
+    }
+  },
+  {
+    "id": "excel-xlookup-011",
+    "title": "XLOOKUP関数で検索作業をシンプルにする",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "検索列の左右を問わず、対応する値を取り出せる関数。VLOOKUPとの違いと実務での使い方を理解します。",
+    "author": "Microsoft",
+    "sourceTitle": "XLOOKUP 関数",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/excel/functions/xlookup-function",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Excel",
+      "関数",
+      "検索",
+      "データ照合"
+    ],
+    "sections": [
+      [
+        "XLOOKUPで何ができる？",
+        "XLOOKUPは、指定した値を検索範囲から探し、同じ位置にある別の範囲の値を返す関数です。たとえば商品コードを検索して商品名や単価を取得できます。従来のVLOOKUPと違い、検索列より左側の列も返せます。"
+      ],
+      [
+        "基本の書き方",
+        "基本形は =XLOOKUP(検索値, 検索範囲, 戻り範囲, [見つからない場合]) です。例：=XLOOKUP(A2, 商品一覧!A:A, 商品一覧!B:B, \"該当なし\")。A2の商品コードを商品一覧A列から探し、同じ行のB列を返します。"
+      ],
+      [
+        "実務での活用",
+        "社員番号から氏名を取得する、品番から価格を取得する、管理番号から担当部署を表示する、といった照合作業に向いています。検索範囲と戻り範囲の行数・並び順をそろえることが大切です。"
+      ],
+      [
+        "注意点・使えない環境",
+        "XLOOKUPはExcel 2016・2019では標準搭載されていません。共有相手のExcelバージョンを確認してください。また、重複キーがある場合は既定で先に見つかった一致を返すため、キーが一意かどうかも確認します。"
+      ]
+    ],
+    "quiz": {
+      "question": "XLOOKUPの特徴として正しいものは？",
+      "options": [
+        "検索列の左側の値も返せる",
+        "必ず検索列を表の一番左に置く",
+        "検索結果は数値だけ"
+      ],
+      "answer": 0,
+      "explanation": "検索範囲と戻り範囲を別々に指定できるため、左右どちらの列も返せます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/excel-xlookup-011.svg",
+    "related": [
+      "excel-sumifs-012",
+      "excel-pivot-013"
+    ]
+  },
+  {
+    "id": "excel-sumifs-012",
+    "title": "SUMIFSで複数条件の集計を自動化する",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "部署・月・商品など複数条件を組み合わせて合計する方法。集計表を手作業で作る負担を減らします。",
+    "author": "Microsoft",
+    "sourceTitle": "Excel 関数（機能別）",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/excel/excel-functions-by-category",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Excel",
+      "SUMIFS",
+      "集計",
+      "条件"
+    ],
+    "sections": [
+      [
+        "SUMIFSとは",
+        "SUMIFSは、複数の条件をすべて満たす行だけを対象に合計する関数です。たとえば「4月」「営業部」「製品A」の条件に一致する売上だけを集計できます。"
+      ],
+      [
+        "基本の書き方",
+        "=SUMIFS(合計範囲, 条件範囲1, 条件1, 条件範囲2, 条件2, …)。例：=SUMIFS(D:D,A:A,\"営業部\",B:B,\"2026/4\",C:C,\"製品A\")。D列を合計し、A〜C列の条件をすべて満たす行を対象にします。"
+      ],
+      [
+        "仕事での使い方",
+        "月次報告、部署別実績、担当者別処理件数、製品別売上など、同じ明細データから複数の切り口で集計するときに便利です。条件をセル参照にすれば、条件を変えるだけで集計結果を切り替えられます。"
+      ],
+      [
+        "つまずきやすい点",
+        "SUMIFSはAND条件です。条件範囲と合計範囲のサイズをそろえ、日付は文字列ではなく日付データとして扱うのが基本です。「AまたはB」のOR条件はSUMIFSを足し合わせるなど別の設計が必要です。"
+      ]
+    ],
+    "quiz": {
+      "question": "SUMIFSが基本的に判定する条件の組み合わせは？",
+      "options": [
+        "すべての条件を満たす（AND）",
+        "いずれか1つを満たす（OR）",
+        "条件を無視する"
+      ],
+      "answer": 0,
+      "explanation": "SUMIFSは指定した複数条件をすべて満たす行を合計対象にします。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/excel-sumifs-012.svg",
+    "related": [
+      "excel-xlookup-011",
+      "excel-pivot-013"
+    ]
+  },
+  {
+    "id": "excel-pivot-013",
+    "title": "ピボットテーブルで大量データを素早く分析する",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "明細データを、部署別・月別・商品別などに切り替えて集計できるExcelの分析機能です。",
+    "author": "Microsoft",
+    "sourceTitle": "ピボットテーブルを作成してワークシート データを分析する",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/excel/get-started/create-a-pivottable-to-analyze-worksheet-data",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Excel",
+      "ピボットテーブル",
+      "データ分析",
+      "集計"
+    ],
+    "sections": [
+      [
+        "ピボットテーブルの役割",
+        "ピボットテーブルは、表形式の明細を集計・分析するための機能です。元データを直接並べ替えたり数式を大量に作ったりせず、項目を配置し直して集計の切り口を変えられます。"
+      ],
+      [
+        "考え方をつかむ",
+        "たとえば「日付・部署・担当者・商品・金額」の明細があるとします。行に部署、列に月、値に金額を置けば、部署別・月別の売上表になります。担当者を行に移せば、担当者別の集計へ切り替わります。"
+      ],
+      [
+        "作成前のデータ整備",
+        "1行目に重複しない見出しを付け、途中に空白行・空白列を作らず、1行1件の明細にします。小計行や結合セルを混ぜないことも重要です。"
+      ],
+      [
+        "注意点",
+        "元データを追加・変更した後はピボットテーブルを更新します。集計値が合わないときは、元データの範囲、数値が文字列になっていないか、日付が正しく認識されているかを確認します。"
+      ]
+    ],
+    "quiz": {
+      "question": "ピボットテーブルの主な目的は？",
+      "options": [
+        "明細データの切り口を変えて集計する",
+        "画像を編集する",
+        "データを自動で翻訳する"
+      ],
+      "answer": 0,
+      "explanation": "行・列・値などの配置を変え、同じ明細を多角的に集計できます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/excel-pivot-013.svg",
+    "related": [
+      "excel-xlookup-011",
+      "excel-sumifs-012"
+    ]
+  },
+  {
+    "id": "excel-validation-014",
+    "title": "入力規則とプルダウンで入力ミスを減らす",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "入力できる値を制限し、表記ゆれや入力間違いを防ぐExcelの仕組みです。",
+    "author": "Microsoft",
+    "sourceTitle": "セルにデータの入力規則を適用する",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/excel/get-started/apply-data-validation-to-cells",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Excel",
+      "入力規則",
+      "ミス防止",
+      "標準化"
+    ],
+    "sections": [
+      [
+        "入力規則とは",
+        "入力規則は、セルに入力できる値や範囲を制限する機能です。部署名を一覧から選ぶプルダウン、日付の範囲指定、数値の上限・下限などを設定できます。"
+      ],
+      [
+        "プルダウンの作り方",
+        "選択肢を別の場所に一覧で用意し、入力させたいセルを選択します。［データ］→［データの入力規則］→［リスト］を選び、元の値に選択肢の範囲を指定します。"
+      ],
+      [
+        "業務での効果",
+        "「営業」「営業部」「営業課」のような表記ゆれを減らせます。入力者によって表現が変わると集計や検索が難しくなるため、選択肢を統一することはデータ品質の改善につながります。"
+      ],
+      [
+        "注意点",
+        "選択肢の追加・変更を誰が管理するか決めておきます。また、コピー貼り付けなどで規則を回避できる場合があるため、入力規則だけで完全に誤入力を防げるわけではありません。"
+      ]
+    ],
+    "quiz": {
+      "question": "入力規則のプルダウンを使う主なメリットは？",
+      "options": [
+        "入力値の表記ゆれを抑えられる",
+        "必ずデータが正しいと保証される",
+        "ファイルサイズがゼロになる"
+      ],
+      "answer": 0,
+      "explanation": "選択肢を統一することで、入力ミスや表記ゆれを減らせますが、完全な保証ではありません。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/excel-validation-014.svg",
+    "related": [
+      "excel-xlookup-011",
+      "excel-sumifs-012"
+    ]
+  },
+  {
+    "id": "excel-shortcuts-015",
+    "title": "Excelのショートカットは操作の流れで覚える",
+    "category": "excel",
+    "kind": "practical",
+    "summary": "キーを丸暗記するより、移動・選択・編集・書式設定など作業のまとまりで覚えると定着しやすくなります。",
+    "author": "Microsoft",
+    "sourceTitle": "Excel のキーボード ショートカット",
+    "sourceUrl": "https://support.microsoft.com/ja-jp/accessibility/excel/keyboard-shortcuts-in-excel",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Excel",
+      "ショートカット",
+      "時短",
+      "操作"
+    ],
+    "sections": [
+      [
+        "ショートカットの考え方",
+        "ショートカットは、マウス操作をキー操作に置き換える手段です。すべて覚える必要はありません。自分が何度も繰り返す操作から覚えると、使う頻度が高くなります。"
+      ],
+      [
+        "まず覚えたい操作",
+        "Ctrl+C／Ctrl+Vはコピー・貼り付け、Ctrl+Zは元に戻す、Ctrl+Sは保存、Ctrl+Fは検索です。Ctrl+矢印キーはデータの端へ移動し、Ctrl+Shift+矢印キーは連続範囲を選択します。"
+      ],
+      [
+        "作業の流れで覚える",
+        "たとえば「検索→範囲選択→コピー→貼り付け→保存」という一連の作業で練習します。操作の順番とセットで覚えると、単独のキーを暗記するより実務で思い出しやすくなります。"
+      ],
+      [
+        "注意点",
+        "ショートカットはOS・Excelのバージョン・キーボード配列で異なることがあります。Macではキーが異なる場合もあります。公式一覧で自分の環境に合うものを確認してください。"
+      ]
+    ],
+    "quiz": {
+      "question": "ショートカットを定着させる方法としておすすめなのは？",
+      "options": [
+        "よく使う作業の流れに沿って覚える",
+        "一度に全種類を暗記する",
+        "使わずに一覧を眺める"
+      ],
+      "answer": 0,
+      "explanation": "頻度の高い作業に結びつけて練習すると、実務で使う機会が増えます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/excel-shortcuts-015.svg",
+    "related": [
+      "excel-xlookup-011",
+      "excel-sumifs-012"
+    ]
+  },
+  {
+    "id": "windows-powertoys-016",
+    "title": "PowerToysでWindowsの細かな不便を解消する",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "Microsoftが提供する無料のオープンソースツール集。ウィンドウ整理や一括リネームなどを補助します。",
+    "author": "Microsoft Learn",
+    "sourceTitle": "Microsoft PowerToys",
+    "sourceUrl": "https://learn.microsoft.com/ja-jp/windows/powertoys/",
+    "evidence": "公式製品資料",
+    "confidence": "公式資料",
+    "tags": [
+      "Windows",
+      "PowerToys",
+      "時短",
+      "無料ツール"
+    ],
+    "sections": [
+      [
+        "PowerToysとは",
+        "PowerToysは、Windowsの標準機能を補う無料のユーティリティ集です。Windowsそのものを置き換えるのではなく、日常操作の細かな不便を減らす補助ツールとして使います。"
+      ],
+      [
+        "便利な機能の例",
+        "FancyZonesは画面を区画に分けてウィンドウを配置できます。PowerRenameは複数ファイルの名前をまとめて変更できます。Text Extractorは画面上の文字をOCRで取り出せます。Peekは対応ファイルを素早くプレビューできます。"
+      ],
+      [
+        "導入するときの考え方",
+        "最初からすべて有効にせず、自分が困っている作業に合う機能だけ試します。たとえば複数画面で資料を見比べるならFancyZones、ファイル名変更が多いならPowerRenameが候補です。"
+      ],
+      [
+        "注意点",
+        "機能や対応OSは更新で変わります。公式ページから入手し、社内PCではソフトウェア導入ルールを確認してください。管理者権限や常駐動作が必要な機能もあります。"
+      ]
+    ],
+    "quiz": {
+      "question": "PowerRenameが役立つ作業は？",
+      "options": [
+        "複数ファイル名の一括変更",
+        "Web会議の録画",
+        "Excel関数の自動生成"
+      ],
+      "answer": 0,
+      "explanation": "PowerRenameは検索・置換などを使ったファイル名の一括変更を支援します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/windows-powertoys-016.svg",
+    "related": [
+      "windows-search-017",
+      "windows-filenames-018"
+    ]
+  },
+  {
+    "id": "windows-search-017",
+    "title": "Windows検索の仕組みとインデックスを理解する",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "検索インデックスを使うとファイルを素早く探せます。検索されないときの確認ポイントも紹介します。",
+    "author": "Microsoft Support",
+    "sourceTitle": "Windows の検索インデックス作成",
+    "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/performance-optimization/search-indexing-in-windows",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Windows",
+      "検索",
+      "インデックス",
+      "ファイル管理"
+    ],
+    "sections": [
+      [
+        "検索インデックスとは",
+        "Windowsは検索を速くするため、ファイル名や設定によってはファイル内容などの情報を索引として管理します。本の索引のように、毎回すべてのファイルを最初から調べずに候補を探せます。"
+      ],
+      [
+        "検索されないとき",
+        "検索対象の場所がインデックスに含まれているか、ファイル種類の内容まで索引対象になっているかを確認します。ファイル名では見つかるのに本文で見つからない場合、内容のインデックス設定が関係することがあります。"
+      ],
+      [
+        "速度と網羅性のバランス",
+        "対象範囲を広げると検索しやすくなる一方、初回作成や更新に時間がかかることがあります。業務で使うフォルダーを中心に設定し、不要な場所まで無制限に追加しないのが現実的です。"
+      ],
+      [
+        "注意点",
+        "インデックスは検索のための補助情報であり、ファイル本体のバックアップではありません。検索結果が出ない場合でもファイルが消えたとは限らないため、エクスプローラーから対象フォルダーを直接確認します。"
+      ]
+    ],
+    "quiz": {
+      "question": "検索インデックスの役割は？",
+      "options": [
+        "検索を速くするための索引を作る",
+        "ファイルを自動で削除する",
+        "PCのメモリを増やす"
+      ],
+      "answer": 0,
+      "explanation": "ファイル情報を索引化し、検索時に候補を効率よく見つけます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/windows-search-017.svg",
+    "related": [
+      "windows-powertoys-016",
+      "windows-filenames-018"
+    ]
+  },
+  {
+    "id": "windows-filenames-018",
+    "title": "ファイル名の付け方で探す時間を減らす",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "日付・案件名・版数などのルールを決めると、検索・並べ替え・引き継ぎが楽になります。",
+    "author": "Microsoft Learn",
+    "sourceTitle": "Naming a File (Windows)",
+    "sourceUrl": "https://learn.microsoft.com/ja-jp/windows/win32/fileio/naming-a-file",
+    "evidence": "公式仕様",
+    "confidence": "公式資料",
+    "tags": [
+      "Windows",
+      "ファイル管理",
+      "命名規則",
+      "標準化"
+    ],
+    "sections": [
+      [
+        "ファイル名は検索の手がかり",
+        "「資料.xlsx」や「最終版.xlsx」だけでは、後から内容や最新版を判断しにくくなります。ファイル名に日付・案件・内容・版数などを含めると、検索結果だけで候補を絞りやすくなります。"
+      ],
+      [
+        "命名ルールの例",
+        "例：20261117_月次実績_営業部_v01.xlsx。日付はYYYYMMDDのように桁をそろえると並べ替えやすくなります。チームで使う場合は、項目の順番と省略語を統一します。"
+      ],
+      [
+        "版管理の考え方",
+        "「最終」「最終2」「本当の最終」のような名前は混乱のもとです。作業中の版数を付け、確定版の保存場所や承認済みの印を別ルールで管理すると、誤使用を減らせます。"
+      ],
+      [
+        "注意点",
+        "Windowsではファイル名に使えない文字や予約名があります。長すぎる名前や個人情報を含む名前も避けます。命名規則は複雑にしすぎず、誰でも守れる短いルールにします。"
+      ]
+    ],
+    "quiz": {
+      "question": "ファイル名ルールを作る目的として最も適切なのは？",
+      "options": [
+        "検索・識別・引き継ぎを容易にする",
+        "ファイル容量を小さくする",
+        "ファイルを暗号化する"
+      ],
+      "answer": 0,
+      "explanation": "規則的な名前は検索性と識別性を高めます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/windows-filenames-018.svg",
+    "related": [
+      "windows-powertoys-016",
+      "windows-search-017"
+    ]
+  },
+  {
+    "id": "windows-pdf-019",
+    "title": "PDFを「読むだけ」以外にも活用する",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "検索・注釈・ページ整理・フォーム入力など、PDFの便利な使い方と注意点を整理します。",
+    "author": "Adobe Help",
+    "sourceTitle": "Acrobat の PDF の操作",
+    "sourceUrl": "https://helpx.adobe.com/acrobat/using/working-with-pdfs.html",
+    "evidence": "公式製品資料",
+    "confidence": "公式資料",
+    "tags": [
+      "PDF",
+      "文書管理",
+      "検索",
+      "注釈"
+    ],
+    "sections": [
+      [
+        "PDFの特徴",
+        "PDFは、異なる端末でもレイアウトを保ちやすい文書形式です。ただし、すべてのPDFが同じように編集できるわけではありません。テキストPDFと、紙を画像化したスキャンPDFでは扱いが異なります。"
+      ],
+      [
+        "便利な使い方",
+        "テキスト検索でキーワードを探す、コメントやハイライトで確認箇所を残す、ページを回転・並べ替える、フォームに入力するなどの使い方があります。長い資料では目次やしおりも役立ちます。"
+      ],
+      [
+        "スキャンPDFの注意",
+        "画像として保存されたPDFは、通常の文字検索ができない場合があります。OCR（文字認識）でテキスト化すると検索できることがありますが、誤認識が起きるため重要な数字や固有名詞は原本と照合します。"
+      ],
+      [
+        "情報管理",
+        "PDFにコメントや個人情報が残ることがあります。社外に渡す前にメタデータや注釈、隠したつもりの情報が残っていないか確認し、必要なら適切な墨消し機能を使います。"
+      ]
+    ],
+    "quiz": {
+      "question": "スキャンした画像PDFで文字検索できない主な理由は？",
+      "options": [
+        "文字が画像として保存されているため",
+        "PDFは検索に対応しないため",
+        "ファイル名が長いため"
+      ],
+      "answer": 0,
+      "explanation": "画像PDFは文字データを持たない場合があり、OCRで認識させる必要があります。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/windows-pdf-019.svg",
+    "related": [
+      "windows-powertoys-016",
+      "windows-search-017"
+    ]
+  },
+  {
+    "id": "windows-performance-020",
+    "title": "PCが遅いときは原因を分けて確認する",
+    "category": "windows",
+    "kind": "practical",
+    "summary": "PCの遅さはメモリ・ストレージ・起動アプリ・更新・ネットワークなど原因が異なります。",
+    "author": "Microsoft Support",
+    "sourceTitle": "Tips to improve PC performance in Windows",
+    "sourceUrl": "https://support.microsoft.com/en-us/windows/experience/performance-optimization/tips-to-improve-pc-performance-in-windows",
+    "evidence": "公式サポート",
+    "confidence": "要URL確認",
+    "tags": [
+      "Windows",
+      "PC",
+      "トラブル対応",
+      "パフォーマンス"
+    ],
+    "sections": [
+      [
+        "最初に症状を分ける",
+        "起動が遅い、アプリの切り替えが重い、ファイルを開くのが遅い、ネットだけ遅い、では原因が違います。まず「いつ」「何をすると」「どの程度」遅いのかを記録します。"
+      ],
+      [
+        "タスクマネージャーを見る",
+        "Ctrl+Shift+Escでタスクマネージャーを開き、CPU・メモリ・ディスクの使用率を確認します。特定のアプリが長時間高負荷なら、そのアプリや処理内容が原因候補です。"
+      ],
+      [
+        "安全な改善順",
+        "不要なスタートアップアプリを見直す、使っていないアプリを終了する、Windows Updateを確認する、ストレージの空き容量を確保する、といった基本策から試します。いきなりレジストリ変更や怪しい高速化ソフトを使わないことが大切です。"
+      ],
+      [
+        "注意点",
+        "頻繁なフリーズ、異音、突然の再起動、ディスクエラーなどがある場合は、単なる設定問題ではなく故障の兆候かもしれません。重要データをバックアップし、社内ITや専門業者に相談します。"
+      ]
+    ],
+    "quiz": {
+      "question": "PCが遅いときの最初の行動として適切なのは？",
+      "options": [
+        "症状とリソース使用率を確認する",
+        "すぐにレジストリを編集する",
+        "出所不明の高速化ソフトを入れる"
+      ],
+      "answer": 0,
+      "explanation": "原因を切り分けてから対策することで、不要な変更やリスクを減らせます;"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/windows-performance-020.svg",
+    "related": [
+      "windows-powertoys-016",
+      "windows-search-017"
+    ]
+  },
+  {
+    "id": "improvement-ecrs-021",
+    "title": "ECRSの原則で仕事のムダを見直す",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "排除・結合・交換・簡素化の4視点で、作業を根本から見直す改善フレームワークです。",
+    "author": "Lean Enterprise Institute",
+    "sourceTitle": "ECRS / Lean lexicon",
+    "sourceUrl": "https://www.lean.org/lexicon-terms/ecrs/",
+    "evidence": "専門機関の解説",
+    "confidence": "参考枠組み",
+    "tags": [
+      "業務改善",
+      "ECRS",
+      "ムダ取り",
+      "改善"
+    ],
+    "sections": [
+      [
+        "ECRSとは",
+        "ECRSは、Eliminate（排除）、Combine（結合）、Rearrange（交換・順序変更）、Simplify（簡素化）の頭文字です。作業を速くする前に、そもそも必要な作業なのかを問い直す考え方です。"
+      ],
+      [
+        "4つの視点",
+        "排除：目的に寄与しない作業をなくせないか。結合：別々の確認や入力をまとめられないか。交換：順番や担当を変えられないか。簡素化：手順や帳票を分かりやすくできないか。"
+      ],
+      [
+        "具体例",
+        "毎週作る報告書で、誰も使っていない項目があるなら排除を検討します。同じデータを二つの表に転記しているなら結合や一元化を考えます。承認の順番が手戻りを生むなら順序変更を検討します。"
+      ],
+      [
+        "進め方と注意",
+        "作業者の負担だけでなく、品質・安全・法令・顧客への影響も確認します。手順を省くことで必要な確認まで消してしまわないよう、目的とリスクを明確にしてから試行します。"
+      ]
+    ],
+    "quiz": {
+      "question": "ECRSで最初に検討する視点は？",
+      "options": [
+        "排除できないか",
+        "見た目を整える",
+        "担当者を増やす"
+      ],
+      "answer": 0,
+      "explanation": "まず不要な作業をなくせないか考え、その後に結合・交換・簡素化を検討します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/improvement-ecrs-021.svg",
+    "related": [
+      "improvement-pareto-022",
+      "improvement-standardwork-023"
+    ]
+  },
+  {
+    "id": "improvement-pareto-022",
+    "title": "パレートの法則で改善の優先順位を考える",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "少数の重要要因が大きな影響を持つことがある、という経験則を改善活動に活用します。",
+    "author": "ASQ",
+    "sourceTitle": "What is a Pareto Chart?",
+    "sourceUrl": "https://asq.org/quality-resources/pareto",
+    "evidence": "品質管理団体の解説",
+    "confidence": "経験則・分析手法",
+    "tags": [
+      "業務改善",
+      "パレート",
+      "優先順位",
+      "品質"
+    ],
+    "sections": [
+      [
+        "80対20は絶対の数字ではない",
+        "パレートの法則は、結果の多くが比較的少数の要因から生じることがある、という経験則です。「必ず80対20になる」という自然法則ではありません。実際の割合はデータによって変わります。"
+      ],
+      [
+        "仕事への使い方",
+        "問い合わせの原因、作業ミスの種類、停止時間の要因などを分類し、件数や損失時間の大きい順に並べます。上位の要因に改善資源を集中すると、効果が出やすい場合があります。"
+      ],
+      [
+        "パレート図の読み方",
+        "横軸に要因、棒の高さに件数や損失量、折れ線に累積割合を示します。上位要因が全体のどの程度を占めるかを視覚的に確認できます。"
+      ],
+      [
+        "注意点",
+        "件数だけで優先順位を決めると、発生頻度は低くても重大な安全・法令リスクを見落とすことがあります。頻度・影響度・緊急度を分けて評価し、重大リスクは別枠で扱います。"
+      ]
+    ],
+    "quiz": {
+      "question": "パレート分析の適切な使い方は？",
+      "options": [
+        "実データから影響の大きい要因を見つける",
+        "必ず80対20になると決めつける",
+        "少数派の問題を無視する"
+      ],
+      "answer": 0,
+      "explanation": "80対20は目安となる経験則であり、実際のデータで優先要因を確認します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/improvement-pareto-022.svg",
+    "related": [
+      "improvement-ecrs-021",
+      "improvement-standardwork-023"
+    ]
+  },
+  {
+    "id": "improvement-standardwork-023",
+    "title": "属人化を防ぐ標準作業の作り方",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "できる人の経験を、誰でも再現できる手順・判断基準・例外対応に変える考え方です。",
+    "author": "Lean Enterprise Institute",
+    "sourceTitle": "Standardized Work",
+    "sourceUrl": "https://www.lean.org/lexicon-terms/standardized-work/",
+    "evidence": "専門機関の解説",
+    "confidence": "参考枠組み",
+    "tags": [
+      "業務改善",
+      "標準化",
+      "属人化",
+      "手順書"
+    ],
+    "sections": [
+      [
+        "標準作業とは",
+        "標準作業は、現時点で最も安全で効果的と考えられる仕事の進め方を明確にしたものです。個人の能力を否定するのではなく、仕事の基本を共有し、改善の土台を作ります。"
+      ],
+      [
+        "手順書に必要な情報",
+        "作業の目的、開始条件、必要な道具・情報、手順、判断基準、完了条件、異常時の連絡先を記載します。「確認する」だけでなく、何をどの状態ならOKとするかを明確にします。"
+      ],
+      [
+        "暗黙知を引き出す",
+        "担当者に作業を実演してもらい、「なぜその順番なのか」「どこで迷うか」「例外は何か」を聞きます。通常手順だけでなく、失敗例や判断の分岐も記録すると、引き継ぎに強くなります。"
+      ],
+      [
+        "標準は固定ではない",
+        "現場の実態と合わない手順書は使われなくなります。利用者からの改善提案を受け、変更履歴・責任者・見直し時期を管理します。標準化は改善を止めることではなく、改善を積み重ねる基準です。"
+      ]
+    ],
+    "quiz": {
+      "question": "実用的な手順書に必要な情報は？",
+      "options": [
+        "完了条件や例外時の対応も含む",
+        "作業名だけ",
+        "作成者の感想だけ"
+      ],
+      "answer": 0,
+      "explanation": "通常手順に加え、判断基準・完了条件・例外対応があると再現性が高まります。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/improvement-standardwork-023.svg",
+    "related": [
+      "improvement-ecrs-021",
+      "improvement-pareto-022"
+    ]
+  },
+  {
+    "id": "improvement-bottleneck-024",
+    "title": "ボトルネックを見つけて全体の流れを改善する",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "工程全体の処理能力を制約している箇所を見つけ、局所最適ではなく全体最適を目指します。",
+    "author": "Theory of Constraints / Goldratt",
+    "sourceTitle": "The Goal and Theory of Constraints overview",
+    "sourceUrl": "https://www.tocico.org/page/TOC101",
+    "evidence": "専門分野の解説",
+    "confidence": "参考枠組み",
+    "tags": [
+      "業務改善",
+      "ボトルネック",
+      "生産性",
+      "工程"
+    ],
+    "sections": [
+      [
+        "ボトルネックとは",
+        "ボトルネックは、工程全体の流れや処理量を制約している箇所です。各担当が忙しいことと、全体の成果が出ていることは同じではありません。"
+      ],
+      [
+        "見つけ方",
+        "工程ごとの処理時間、待ち時間、滞留件数、仕掛かり量を確認します。仕事が集中している場所、前工程の成果が積み上がる場所、後工程が待っている場所は候補になります。"
+      ],
+      [
+        "改善の順番",
+        "まず制約箇所を特定し、そこでの停止や手戻りを減らします。次に他の工程から制約箇所へ仕事を適切に供給し、必要なら能力を増やします。改善後は制約箇所が移動していないか再確認します。"
+      ],
+      [
+        "注意点",
+        "一つの担当者の処理件数だけを増やすと、前後工程に滞留を作ることがあります。評価指標は個人の忙しさではなく、リードタイム・納期遵守・全体処理量などと合わせて見ます。"
+      ]
+    ],
+    "quiz": {
+      "question": "ボトルネック改善で重視するのは？",
+      "options": [
+        "工程全体の流れと成果",
+        "一人ひとりの稼働率だけ",
+        "最も簡単な工程の速度だけ"
+      ],
+      "answer": 0,
+      "explanation": "制約工程が全体の成果を左右するため、全体の流れで考えます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/improvement-bottleneck-024.svg",
+    "related": [
+      "improvement-ecrs-021",
+      "improvement-pareto-022"
+    ]
+  },
+  {
+    "id": "improvement-kpi-025",
+    "title": "KGIとKPIを分けて目標を行動につなげる",
+    "category": "improvement",
+    "kind": "practical",
+    "summary": "最終的に達成したい成果と、その成果に向かう途中の指標を区別して管理します。",
+    "author": "Atlassian",
+    "sourceTitle": "KPIとは？主要業績評価指標の説明",
+    "sourceUrl": "https://www.atlassian.com/ja/work-management/project-management/kpi",
+    "evidence": "実務解説",
+    "confidence": "一般的な管理概念",
+    "tags": [
+      "業務改善",
+      "KPI",
+      "KGI",
+      "目標管理"
+    ],
+    "sections": [
+      [
+        "KGIとKPIの違い",
+        "KGIは最終的に達成したい重要目標、KPIはそこへ向かう進捗や活動を測る指標です。たとえば「顧客満足度を改善する」がKGIなら、「初回回答時間」「再問い合わせ率」などがKPI候補になります。"
+      ],
+      [
+        "良い指標の条件",
+        "目標と因果関係があり、定義が明確で、定期的に測定でき、担当者が行動に結びつけられることが重要です。数値の計算方法・対象範囲・更新頻度を決めます。"
+      ],
+      [
+        "指標のつながり",
+        "KGIから逆算して、成果に影響する要因を整理します。たとえば納期遵守率を上げたいなら、遅延件数だけでなく、着手遅れ・確認待ち・手戻りなど原因に近い指標を設けます。"
+      ],
+      [
+        "注意点",
+        "測りやすい数字だけを追うと、数字を良く見せる行動が起きることがあります。速度と品質、件数と顧客影響など、偏りを防ぐ補助指標を組み合わせます。"
+      ]
+    ],
+    "quiz": {
+      "question": "KPIの役割として正しいものは？",
+      "options": [
+        "最終目標に向かう進捗や要因を測る",
+        "最終目標そのものだけを示す",
+        "評価とは無関係な数字を並べる"
+      ],
+      "answer": 0,
+      "explanation": "KPIはKGI達成に向けた進捗や重要要因を測る指標です。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/improvement-kpi-025.svg",
+    "related": [
+      "improvement-ecrs-021",
+      "improvement-pareto-022"
+    ]
+  },
+  {
+    "id": "ai-generation-026",
+    "title": "生成AIはどのように文章を作っているのか",
+    "category": "ai",
+    "kind": "research",
+    "summary": "大規模言語モデルが次のトークンを予測しながら文章を生成する基本を、誤解しやすい点とともに解説します。",
+    "author": "NIST",
+    "sourceTitle": "Artificial Intelligence Risk Management Framework: Generative AI Profile",
+    "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "evidence": "公的機関の技術資料",
+    "confidence": "技術的な概要",
+    "tags": [
+      "生成AI",
+      "LLM",
+      "仕組み",
+      "基礎"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+    "sections": [
+      [
+        "文章生成の基本",
+        "大規模言語モデル（LLM）は、大量のテキストから言葉の並び方や文脈のパターンを学習し、入力に続く可能性の高いトークンを順に予測して文章を作ります。トークンは単語そのものとは限らず、単語の一部や記号の場合もあります。"
+      ],
+      [
+        "なぜ自然な文章になる？",
+        "学習によって、文法・表現・知識の関連性などのパターンを捉えます。質問の文脈に合う続きを生成するため、人間が書いたような文章になることがあります。ただし、自然な文章であることと、内容が事実であることは別です。"
+      ],
+      [
+        "検索エンジンとの違い",
+        "検索エンジンは既存ページを探して提示するのが中心ですが、生成AIは学習したパターンを使って新しい文章を組み立てます。検索機能を組み合わせるAIもありますが、検索した情報の引用・解釈が正しいかは別途確認が必要です。"
+      ],
+      [
+        "仕事での使い方",
+        "たたき台、要約、分類、観点出しなど、文章や情報を扱う補助に向いています。数値・法律・社内ルール・最新情報など、間違いの影響が大きい内容は原典と照合し、最終判断を人が行います。"
+      ]
+    ],
+    "quiz": {
+      "question": "生成AIが自然な文章を作れることから、何が保証される？",
+      "options": [
+        "文章の自然さであり、事実の正確さではない",
+        "すべての情報が最新である",
+        "引用元が必ず実在する"
+      ],
+      "answer": 0,
+      "explanation": "流暢さと正確性は別です。根拠が必要な情報は原典確認が欠かせません。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/ai-generation-026.svg",
+    "related": [
+      "ai-hallucination-027",
+      "ai-rag-028"
+    ]
+  },
+  {
+    "id": "ai-hallucination-027",
+    "title": "生成AIのハルシネーションはなぜ起きるのか",
+    "category": "ai",
+    "kind": "research",
+    "summary": "AIがもっともらしい誤情報を生成する理由と、業務で被害を抑える確認方法を学びます。",
+    "author": "NIST",
+    "sourceTitle": "AI RMF Generative AI Profile – Confabulation",
+    "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "evidence": "公的機関のリスク資料",
+    "confidence": "公的技術資料",
+    "tags": [
+      "生成AI",
+      "ハルシネーション",
+      "リスク",
+      "ファクトチェック"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+    "sections": [
+      [
+        "ハルシネーションとは",
+        "生成AIが、誤った情報や存在しない情報を、確かなことのように出力する現象です。NISTは関連する現象をconfabulation（作話・虚構生成）として説明しています。架空の論文・URL・人物の発言などが例です。"
+      ],
+      [
+        "なぜ起きるのか",
+        "LLMは文章の続きを予測して生成する仕組みであり、常に事実データベースを照会しているわけではありません。質問に答える材料が不足していても、文脈上もっともらしい続きを作ってしまう場合があります。"
+      ],
+      [
+        "起きやすい場面",
+        "専門的な数値、最新ニュース、細かな製品仕様、出典を指定した質問、存在確認が難しい固有名詞などは慎重に扱います。質問が曖昧な場合や、AIが知らないことを認めにくい状況もリスクになります。"
+      ],
+      [
+        "対策",
+        "重要な主張を分解し、公式資料・原論文・一次情報で照合します。出典URLを実際に開く、引用箇所が主張を支えているか読む、計算は別手段で再確認する、確証がない場合は未確認と表示する、といった手順が有効です。"
+      ]
+    ],
+    "quiz": {
+      "question": "ハルシネーション対策として最も有効なのは？",
+      "options": [
+        "重要な主張を一次情報で照合する",
+        "文章が流暢なら正しいと判断する",
+        "AIに自信度だけを尋ねる"
+      ],
+      "answer": 0,
+      "explanation": "流暢さや自己申告の自信度は正確性の保証にならず、原典との照合が必要です。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/ai-hallucination-027.svg",
+    "related": [
+      "ai-generation-026",
+      "ai-rag-028"
+    ]
+  },
+  {
+    "id": "ai-rag-028",
+    "title": "RAGとは？社内資料を参照する生成AIの仕組み",
+    "category": "ai",
+    "kind": "research",
+    "summary": "検索拡張生成（RAG）が、外部文書を検索してから回答を作る仕組みと限界を解説します。",
+    "author": "Lewis et al.",
+    "sourceTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "sourceUrl": "https://arxiv.org/abs/2005.11401",
+    "evidence": "査読前研究論文（arXiv）",
+    "confidence": "原著研究・概念説明",
+    "tags": [
+      "AI",
+      "RAG",
+      "検索",
+      "社内ナレッジ"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "sections": [
+      [
+        "RAGの基本",
+        "RAGはRetrieval-Augmented Generationの略で、日本語では検索拡張生成と呼ばれます。質問に関連する文書を先に検索し、その情報を生成AIに渡して回答を作らせる方式です。"
+      ],
+      [
+        "処理の流れ",
+        "①社内資料などを検索しやすい単位に分割する。②質問に近い資料片を検索する。③見つかった資料をAIに渡す。④資料を踏まえた回答を生成する。必要に応じて出典箇所も表示します。"
+      ],
+      [
+        "何が改善する？",
+        "モデルの学習時点に含まれていない社内規程や更新された手順書を参照できる可能性があります。モデル自体を再学習するより、文書更新を検索側に反映しやすい点も利点です。"
+      ],
+      [
+        "限界と注意",
+        "検索が間違えば回答も誤ります。資料が古い、重複している、権限管理が不適切、検索結果に必要な箇所が含まれない、といった問題があります。RAGを導入してもハルシネーションがゼロになるわけではありません。"
+      ]
+    ],
+    "quiz": {
+      "question": "RAGの基本的な特徴は？",
+      "options": [
+        "関連文書を検索してから回答生成に使う",
+        "AIモデルを必ずゼロから学習し直す",
+        "検索を一切使わない"
+      ],
+      "answer": 0,
+      "explanation": "検索で取得した外部情報を生成時の文脈として利用します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/ai-rag-028.svg",
+    "related": [
+      "ai-generation-026",
+      "ai-hallucination-027"
+    ]
+  },
+  {
+    "id": "ai-agents-029",
+    "title": "AIエージェントとは？チャットAIとの違い",
+    "category": "ai",
+    "kind": "research",
+    "summary": "目標に向けて計画し、ツールを使い、結果を確認しながら進めるAIエージェントの概念を整理します。",
+    "author": "Wang et al.",
+    "sourceTitle": "A Survey on Large Language Model based Autonomous Agents",
+    "sourceUrl": "https://arxiv.org/abs/2308.11432",
+    "evidence": "研究サーベイ（arXiv）",
+    "confidence": "研究動向の概説",
+    "tags": [
+      "AI",
+      "AIエージェント",
+      "自動化",
+      "業務"
+    ],
+    "origin": "overseas",
+    "originalTitle": "A Survey on Large Language Model based Autonomous Agents",
+    "sections": [
+      [
+        "チャットAIとの違い",
+        "一般的なチャットAIは、入力に対して回答を返す使い方が中心です。AIエージェントは、目標に向けて複数の手順を組み立て、必要に応じて検索・ファイル操作・外部ツールなどを使い、結果を見ながら次の行動を選ぶ仕組みを指します。"
+      ],
+      [
+        "典型的な構成",
+        "目標の理解、計画、ツール選択、実行、結果の観察、計画の修正というループで説明できます。すべてのエージェントが同じ構成ではなく、単純な固定フローから自律性の高いものまで幅があります。"
+      ],
+      [
+        "活用例",
+        "問い合わせの分類、資料の収集と要約、定型レポートの下書き、複数システム間の情報転記などが候補です。重要なのは、AIに何を任せ、どこで人が承認するかを明確にすることです。"
+      ],
+      [
+        "リスク管理",
+        "誤った判断でファイル削除・誤送信・誤発注などを行う可能性があります。権限を最小限にし、実行前確認、操作ログ、取り消し手段、対象範囲の制限を設けます。重要な操作は人間の承認を必須にします。"
+      ]
+    ],
+    "quiz": {
+      "question": "AIエージェントを業務導入する際に重要なのは？",
+      "options": [
+        "権限・承認・ログなどの統制",
+        "すべての操作を無制限に許可する",
+        "結果の確認を省略する"
+      ],
+      "answer": 0,
+      "explanation": "自律的に操作できるほど、権限管理と人間の確認が重要になります。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/ai-agents-029.svg",
+    "related": [
+      "ai-generation-026",
+      "ai-hallucination-027"
+    ]
+  },
+  {
+    "id": "ai-delegation-030",
+    "title": "AIに任せてよい仕事・人が判断すべき仕事",
+    "category": "ai",
+    "kind": "practical",
+    "summary": "AI導入を「できるか」だけで判断せず、誤りの影響・検証可能性・権限で切り分けます。",
+    "author": "NIST",
+    "sourceTitle": "AI RMF Generative AI Profile",
+    "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+    "evidence": "公的機関のリスク管理資料",
+    "confidence": "リスク管理の考え方",
+    "tags": [
+      "AI",
+      "業務設計",
+      "リスク管理",
+      "人間の判断"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile",
+    "sections": [
+      [
+        "判断の軸は3つ",
+        "AIに任せるかは、①間違えたときの影響、②結果を人が検証できるか、③AIに与える権限の大きさで考えます。作業時間が短くなるかだけでは不十分です。"
+      ],
+      [
+        "任せやすい仕事",
+        "文章のたたき台、表記ゆれの検出、分類候補、会議メモの整理、アイデア出しなど、出力を人が確認しやすく、誤りが直ちに重大事故につながりにくい作業は候補になります。"
+      ],
+      [
+        "人が判断すべき仕事",
+        "人事評価、採用・解雇、医療・法務・金融の重要判断、安全に関わる操作、顧客への確定回答などは慎重な設計が必要です。AIに補助させる場合でも、根拠と責任者を明確にします。"
+      ],
+      [
+        "小さく試す",
+        "対象業務を限定し、成功条件・許容できる誤り・確認担当・停止条件を決めて試験します。時間短縮だけでなく、誤り率、手戻り、情報漏えいリスク、利用者の負担も測ります。"
+      ]
+    ],
+    "quiz": {
+      "question": "AIへの業務委任を判断する際に重要な軸は？",
+      "options": [
+        "誤りの影響と検証可能性、権限",
+        "AIが自信ありげに答えたか",
+        "作業が派手に見えるか"
+      ],
+      "answer": 0,
+      "explanation": "誤りの影響、結果の検証可能性、与える権限を合わせて判断します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/ai-delegation-030.svg",
+    "related": [
+      "ai-generation-026",
+      "ai-hallucination-027"
+    ]
+  },
+  {
+    "id": "psych-confirmation-031",
+    "title": "確証バイアス：自分の考えを裏付ける情報ばかり集める",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "人は既存の考えに合う情報を重視し、反対の証拠を軽く扱うことがあります。判断の偏りを減らす方法を紹介します。",
+    "author": "Raymond S. Nickerson",
+    "sourceTitle": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+    "sourceUrl": "https://doi.org/10.1037/1089-2680.2.2.175",
+    "evidence": "心理学レビュー論文",
+    "confidence": "研究レビュー",
+    "tags": [
+      "心理学",
+      "確証バイアス",
+      "意思決定",
+      "思考法"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises",
+    "sections": [
+      [
+        "確証バイアスとは",
+        "確証バイアスは、自分がすでに信じている考えを支持する情報を探したり、重く評価したりし、反対の情報を見落としやすくなる傾向です。意図的に偏ろうとしていなくても起こります。"
+      ],
+      [
+        "仕事での例",
+        "「この設備が原因だ」と思い込むと、その設備に関係する不具合だけを集め、別の工程や作業条件を調べなくなることがあります。採用面接や投資判断、改善案の評価でも起こり得ます。"
+      ],
+      [
+        "対策：反証を探す",
+        "結論を出す前に「この考えが間違っているとしたら、どんな証拠があるか」と問いかけます。賛成意見だけでなく、反対仮説とそれを支持するデータを最低一つ探します。"
+      ],
+      [
+        "チームでの工夫",
+        "会議では最初に各自が独立して意見を書き、発言力の強い人の意見に引きずられにくくします。原因分析では複数仮説を並べ、仮説ごとに確認するデータを決めます。"
+      ]
+    ],
+    "quiz": {
+      "question": "確証バイアスを減らす方法は？",
+      "options": [
+        "自分の仮説に反する証拠も探す",
+        "最初の印象だけで決める",
+        "賛成意見だけを集める"
+      ],
+      "answer": 0,
+      "explanation": "反証可能性を意識し、複数の仮説と証拠を比較します。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/psych-confirmation-031.svg",
+    "related": [
+      "psych-loss-aversion-032",
+      "psych-cognitive-load-033"
+    ]
+  },
+  {
+    "id": "psych-loss-aversion-032",
+    "title": "損失回避性：人は得する喜びより損する痛みを強く感じやすい",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "行動経済学の代表的な概念。変化への抵抗や意思決定を理解する手がかりになります。",
+    "author": "Kahneman & Tversky",
+    "sourceTitle": "Prospect Theory: An Analysis of Decision under Risk",
+    "sourceUrl": "https://doi.org/10.2307/1914185",
+    "evidence": "査読済み学術論文",
+    "confidence": "古典的研究・文脈依存",
+    "tags": [
+      "心理学",
+      "行動経済学",
+      "損失回避",
+      "意思決定"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Prospect Theory: An Analysis of Decision under Risk",
+    "sections": [
+      [
+        "損失回避性とは",
+        "損失回避性は、同じ大きさの利益と損失を比べたとき、損失のほうを強く感じやすいという傾向です。プロスペクト理論の重要な要素として研究されてきました。"
+      ],
+      [
+        "仕事で起きること",
+        "新しいシステムで時間が短縮できる可能性があっても、慣れた手順を失う不安や、導入直後の失敗が気になり、変更を避けることがあります。これは単なる怠慢ではなく、失うものに注意が向く心理として理解できます。"
+      ],
+      [
+        "改善に活かす",
+        "導入メリットだけでなく、移行時に何を失うと感じるのかを把握します。旧手順との併用期間、戻せる仕組み、研修、試行範囲の限定などで、失敗した場合の損失を小さく見せることができます。"
+      ],
+      [
+        "注意点",
+        "損失回避性はすべての人・状況で同じ強さで起きるわけではありません。文化、経験、金額、確率、提示方法などに左右されるため、相手の行動を一つの心理用語だけで決めつけないことが重要です。"
+      ]
+    ],
+    "quiz": {
+      "question": "変化への抵抗を減らす工夫として適切なのは？",
+      "options": [
+        "小さく試し、元に戻せる選択肢を用意する",
+        "メリットだけを強調する",
+        "不安を感じる人を責める"
+      ],
+      "answer": 0,
+      "explanation": "移行時の損失や不安を減らす設計が、受け入れやすさにつながります。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/psych-loss-aversion-032.svg",
+    "related": [
+      "psych-confirmation-031",
+      "psych-cognitive-load-033"
+    ]
+  },
+  {
+    "id": "psych-cognitive-load-033",
+    "title": "認知負荷理論：情報を詰め込みすぎると理解しにくくなる",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "人の作業記憶には限界があります。説明・手順書・教育資料を分かりやすくする考え方です。",
+    "author": "John Sweller",
+    "sourceTitle": "Cognitive Load During Problem Solving: Effects on Learning",
+    "sourceUrl": "https://doi.org/10.1207/s15516709cog1202_4",
+    "evidence": "査読済み学術論文",
+    "confidence": "基礎研究・理論",
+    "tags": [
+      "心理学",
+      "認知負荷",
+      "学習",
+      "資料作成"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Cognitive Load During Problem Solving: Effects on Learning",
+    "sections": [
+      [
+        "認知負荷とは",
+        "認知負荷理論は、学習中に作業記憶へかかる負担に注目する考え方です。情報が複雑すぎたり、説明の仕方が分かりにくかったりすると、理解や記憶に使える余力が減ります。"
+      ],
+      [
+        "3つの負荷の整理",
+        "一般的な説明では、内容そのものの複雑さに関わる負荷、説明方法によって余計に生じる負荷、理解の枠組みを作るための学習活動を区別します。分類の細部は理論の発展によって整理が変わるため、単純な固定ルールとして扱わないようにします。"
+      ],
+      [
+        "資料作成への応用",
+        "一画面に情報を詰め込みすぎない、専門用語を先に説明する、手順を小さな段階に分ける、図と説明文を近くに置く、不要な装飾を減らす、といった工夫が役立ちます。"
+      ],
+      [
+        "仕事での例",
+        "新しい業務手順を教えるとき、例外条件を最初からすべて説明すると混乱しやすくなります。まず通常手順を理解してもらい、その後に例外や判断分岐を追加すると段階的に学べます。"
+      ]
+    ],
+    "quiz": {
+      "question": "認知負荷を減らす資料の工夫は？",
+      "options": [
+        "情報を段階に分け、不要な要素を減らす",
+        "一画面に全情報を詰め込む",
+        "説明なしで専門用語を並べる"
+      ],
+      "answer": 0,
+      "explanation": "理解に必要な情報を整理し、余計な認知的負担を抑えます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/psych-cognitive-load-033.svg",
+    "related": [
+      "psych-confirmation-031",
+      "psych-loss-aversion-032"
+    ]
+  },
+  {
+    "id": "psych-anchoring-034",
+    "title": "アンカリング効果：最初に見た数字が判断の基準になる",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "最初に提示された数字や情報が、その後の見積もりや交渉に影響する心理現象です。",
+    "author": "Tversky & Kahneman",
+    "sourceTitle": "Judgment under Uncertainty: Heuristics and Biases",
+    "sourceUrl": "https://doi.org/10.1126/science.185.4157.1124",
+    "evidence": "査読済み学術論文",
+    "confidence": "古典的研究",
+    "tags": [
+      "心理学",
+      "アンカリング",
+      "判断",
+      "交渉"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Judgment under Uncertainty: Heuristics and Biases",
+    "sections": [
+      [
+        "アンカリングとは",
+        "アンカリングは、最初に示された数値や情報が、その後の判断の基準点になり、見積もりや評価を引っ張る現象です。最初の数字が正しいとは限らないのに、調整が不十分になることがあります。"
+      ],
+      [
+        "仕事での例",
+        "見積もりの初期価格、納期の最初の提示、前年実績、最初に出た原因仮説などがアンカーになる場合があります。最初の案を見た後では、別の数字を考えるときもその値を基準にしやすくなります。"
+      ],
+      [
+        "対策",
+        "価格や工数を見積もる前に、まず自分で独立した見積もりを作ります。複数の比較対象や過去データを使い、最初の提示額がどの根拠で出されたかを確認します。"
+      ],
+      [
+        "注意点",
+        "アンカーは常に不合理というわけではありません。過去実績など妥当な情報が基準になることもあります。問題は、根拠の薄い初期値に過度に引きずられ、十分な修正をしないことです。"
+      ]
+    ],
+    "quiz": {
+      "question": "アンカリング対策として適切なのは？",
+      "options": [
+        "最初の提示を見る前に独立した見積もりを作る",
+        "最初の数字を必ず正しいとみなす",
+        "比較対象を一つに限定する"
+      ],
+      "answer": 0,
+      "explanation": "独立した基準を先に作り、初期値に引きずられにくくします。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/psych-anchoring-034.svg",
+    "related": [
+      "psych-confirmation-031",
+      "psych-loss-aversion-032"
+    ]
+  },
+  {
+    "id": "psych-peak-end-035",
+    "title": "ピーク・エンドの法則：体験の印象は山場と最後に左右される",
+    "category": "psychology",
+    "kind": "research",
+    "summary": "経験全体の評価が、最も強い瞬間と終わり方に影響されるという研究概念です。",
+    "author": "Fredrickson",
+    "sourceTitle": "Extracting Emotional Meaning from Past Affective Experiences",
+    "sourceUrl": "https://doi.org/10.1037/0022-3514.78.3.498",
+    "evidence": "査読済み学術論文",
+    "confidence": "研究概念・条件依存",
+    "tags": [
+      "心理学",
+      "記憶",
+      "体験設計",
+      "顧客満足"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Extracting Emotional Meaning from Past Affective Experiences",
+    "sections": [
+      [
+        "ピーク・エンドの法則とは",
+        "ピーク・エンドの法則は、経験を振り返るとき、最も感情が強かった瞬間（ピーク）と終わり（エンド）が全体評価に大きく影響するという考え方です。経験の長さやすべての瞬間を均等に平均して評価するとは限りません。"
+      ],
+      [
+        "仕事への応用",
+        "顧客対応では、問題が起きたときの対応と、最後にどう解決・説明して終えるかが印象に残る可能性があります。研修では、理解できた実感を得る演習や、最後の振り返りを設計することが考えられます。"
+      ],
+      [
+        "設計のヒント",
+        "不快な待ち時間を減らすだけでなく、重要な場面で丁寧な説明を行い、最後に次の行動や解決状態を明確にします。体験の最後を曖昧にしないことは、安心感につながる場合があります。"
+      ],
+      [
+        "注意点",
+        "この法則はすべての体験・評価に同じように当てはまる万能則ではありません。研究条件や測定方法で結果は変わります。継続的なサービス品質を、最後の演出だけで補えるわけではありません。"
+      ]
+    ],
+    "quiz": {
+      "question": "ピーク・エンドの法則で重視される2つは？",
+      "options": [
+        "最も強い瞬間と終わり",
+        "最初と中間だけ",
+        "体験時間の長さだけ"
+      ],
+      "answer": 0,
+      "explanation": "ピークとエンドが、振り返ったときの全体評価に影響するという概念です。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/psych-peak-end-035.svg",
+    "related": [
+      "psych-confirmation-031",
+      "psych-loss-aversion-032"
+    ]
+  },
+  {
+    "id": "trivia-deadline-036",
+    "title": "なぜ人は締切直前まで先延ばししてしまうのか",
+    "category": "trivia",
+    "kind": "research",
+    "summary": "先延ばしは単なる怠けではなく、感情調整や課題の曖昧さ、自己調整の難しさと関係します。",
+    "author": "Mahy, Munakata & Miyake",
+    "sourceTitle": "Mutual implications of procrastination research in adults and children for theory and intervention",
+    "sourceUrl": "https://www.nature.com/articles/s44159-024-00341-w",
+    "evidence": "査読済みレビュー論文",
+    "confidence": "研究レビュー",
+    "tags": [
+      "心理学",
+      "先延ばし",
+      "締切",
+      "仕事術"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Mutual implications of procrastination research in adults and children for theory and intervention",
+    "sections": [
+      [
+        "先延ばしはなぜ起きる？",
+        "先延ばしは、やるべきだと分かっている行動を不必要に遅らせることです。難しい・退屈・失敗が怖いといった課題に向き合う不快感を避けるため、目先の気分が楽になる行動を選んでしまうことがあります。"
+      ],
+      [
+        "締切が近づくと動ける理由",
+        "締切が迫ると、先延ばしのコストが目に見えるようになり、優先順位が上がることがあります。時間的な切迫感や外部からの制約が、着手を促す場合があります。ただし、毎回うまくいくとは限らず、品質低下やストレスにつながります。"
+      ],
+      [
+        "対策：着手を小さくする",
+        "「資料を完成させる」ではなく「ファイルを開き、見出しを3つ書く」のように、最初の行動を小さく具体化します。作業の開始条件と完了条件を明確にし、短い時間枠を設けます。"
+      ],
+      [
+        "対策：感情と環境を整える",
+        "苦手な作業を避けたくなる理由を言語化し、分からない部分は質問・相談に分けます。通知を切る、必要な資料を先にそろえる、開始時刻を決めるなど、行動しやすい環境を作ります。"
+      ]
+    ],
+    "quiz": {
+      "question": "先延ばし対策として有効な工夫は？",
+      "options": [
+        "最初の行動を小さく具体化する",
+        "作業全体を曖昧なままにする",
+        "締切を常に直前に設定する"
+      ],
+      "answer": 0,
+      "explanation": "着手のハードルを下げ、次に何をするかを明確にします。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "verified",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/trivia-deadline-036.svg",
+    "related": [
+      "trivia-multitasking-037",
+      "trivia-sleep-memory-038"
+    ]
+  },
+  {
+    "id": "trivia-multitasking-037",
+    "title": "マルチタスクは本当に効率的なのか",
+    "category": "trivia",
+    "kind": "research",
+    "summary": "複数作業を同時に進めているつもりでも、実際には注意を切り替えていることが多く、切り替えコストが生じます。",
+    "author": "American Psychological Association",
+    "sourceTitle": "Multitasking: Switching costs",
+    "sourceUrl": "https://www.apa.org/topics/research/multitasking",
+    "evidence": "心理学団体の解説",
+    "confidence": "研究知見の概説",
+    "tags": [
+      "心理学",
+      "集中",
+      "マルチタスク",
+      "生産性"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Multitasking: Switching Costs",
+    "sections": [
+      [
+        "同時処理より切り替え",
+        "人は複数の複雑な課題を完全に同時処理するより、短い間隔で注意を切り替えていることが多いと考えられています。切り替えるたびに、次の課題のルールや目的を思い出す負担が生じます。"
+      ],
+      [
+        "仕事での例",
+        "資料作成中にメールを確認し、チャットに返信し、また資料へ戻ると、どこまで考えたかを再構築する必要があります。短い割り込みでも、複雑な作業では集中の再開に時間がかかる場合があります。"
+      ],
+      [
+        "使い分け",
+        "単純で自動化された作業や、待ち時間を使う場面では並行処理が有効なこともあります。一方、分析・文章作成・判断など深い集中が必要な作業では、時間を区切って一つずつ進める方法が向いています。"
+      ],
+      [
+        "実践方法",
+        "集中時間を短く区切り、その間は通知を止めます。メールやチャットを確認する時間をまとめ、作業を中断するときは「次にすること」を一行メモに残すと再開しやすくなります。"
+      ]
+    ],
+    "quiz": {
+      "question": "複雑な作業でマルチタスクが非効率になりやすい理由は？",
+      "options": [
+        "注意の切り替えにコストがかかる",
+        "人間は一切注意を切り替えられない",
+        "同時に作業すると必ず記憶が消える"
+      ],
+      "answer": 0,
+      "explanation": "切り替えのたびに課題の目的や状態を再確認する負担が生じます。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/trivia-multitasking-037.svg",
+    "related": [
+      "trivia-deadline-036",
+      "trivia-sleep-memory-038"
+    ]
+  },
+  {
+    "id": "trivia-sleep-memory-038",
+    "title": "睡眠は記憶の整理と定着にどう関係するのか",
+    "category": "trivia",
+    "kind": "research",
+    "summary": "睡眠中には記憶の固定化に関わる過程が進みます。学習後の睡眠を軽視しない理由を解説します。",
+    "author": "National Institute of Neurological Disorders and Stroke",
+    "sourceTitle": "Brain Basics: Understanding Sleep",
+    "sourceUrl": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/understanding-sleep",
+    "evidence": "公的研究機関の解説",
+    "confidence": "研究知見の概説",
+    "tags": [
+      "睡眠",
+      "記憶",
+      "脳",
+      "学習"
+    ],
+    "sections": [
+      [
+        "睡眠と記憶",
+        "睡眠は、単に脳を休ませる時間ではありません。学習した情報の記憶固定や、情報の整理に関わる過程が睡眠中に進むことが研究されています。睡眠段階ごとに関係する記憶過程が異なる可能性があります。"
+      ],
+      [
+        "学習との関係",
+        "学習した内容を覚えたいとき、夜遅くまで詰め込むだけでなく、十分な睡眠を確保することが重要です。睡眠不足は注意力や学習効率にも影響し、翌日の仕事のミスにつながる可能性があります。"
+      ],
+      [
+        "実践のヒント",
+        "学んだことを短く振り返り、翌日や数日後に思い出す練習を組み合わせます。睡眠を削って復習時間を増やすより、学習と休息のバランスを考えます。"
+      ],
+      [
+        "注意点",
+        "睡眠と記憶の関係は、学習内容や年齢、睡眠状態などで異なります。「寝ればすべて覚える」という意味ではありません。睡眠の問題が長く続く場合は、生活習慣だけで解決しようとせず医療機関に相談します。"
+      ]
+    ],
+    "quiz": {
+      "question": "学習後の睡眠について適切なのは？",
+      "options": [
+        "記憶の固定化に関わる過程がある",
+        "睡眠中は脳が完全に停止する",
+        "睡眠時間を削るほど記憶が強くなる"
+      ],
+      "answer": 0,
+      "explanation": "睡眠中には学習した情報の記憶固定などに関わる過程が進むことが知られています。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/trivia-sleep-memory-038.svg",
+    "related": [
+      "trivia-deadline-036",
+      "trivia-multitasking-037"
+    ]
+  },
+  {
+    "id": "trivia-meetings-039",
+    "title": "なぜ会議は長くなりやすいのか",
+    "category": "trivia",
+    "kind": "practical",
+    "summary": "目的・決定事項・参加者・事前準備が曖昧だと、会議は情報共有と議論が混ざり長引きやすくなります。",
+    "author": "Harvard Business Review",
+    "sourceTitle": "Stop the Meeting Madness",
+    "sourceUrl": "https://hbr.org/2017/07/stop-the-meeting-madness",
+    "evidence": "ビジネス実務記事",
+    "confidence": "実務提言・研究紹介",
+    "tags": [
+      "会議",
+      "業務改善",
+      "コミュニケーション",
+      "時間管理"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Stop the Meeting Madness",
+    "sections": [
+      [
+        "会議が長引く構造",
+        "会議の目的が「共有」「相談」「決定」のどれなのか曖昧だと、参加者が異なる期待で集まります。資料をその場で読み始めたり、論点が横に広がったりすると、終了条件が見えなくなります。"
+      ],
+      [
+        "会議前に決めること",
+        "目的、決めたいこと、必要な参加者、事前に読んでおく資料、議題ごとの時間を明記します。決定が不要な情報共有は、文書やチャットで済ませられないか検討します。"
+      ],
+      [
+        "会議中の進め方",
+        "議題ごとに「現状・論点・選択肢・決定」を分けます。話が逸れた場合は別枠に記録し、必要な人だけで後から扱います。決定事項・担当者・期限を最後に確認します。"
+      ],
+      [
+        "注意点",
+        "会議を短くすること自体が目的ではありません。必要な相談や異なる意見を省くと、後で手戻りが増えます。会議時間だけでなく、決定の質・実行率・参加者の準備時間も評価します。"
+      ]
+    ],
+    "quiz": {
+      "question": "会議を効率化するために最も重要な事前準備は？",
+      "options": [
+        "目的と決めたいことを明確にする",
+        "参加者をできるだけ増やす",
+        "議題を決めず自由に話す"
+      ],
+      "answer": 0,
+      "explanation": "目的と意思決定事項が明確だと、議論の範囲と終了条件を定めやすくなります。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/trivia-meetings-039.svg",
+    "related": [
+      "trivia-deadline-036",
+      "trivia-multitasking-037"
+    ]
+  },
+  {
+    "id": "trivia-memory-040",
+    "title": "人間の記憶は録画のように保存されるわけではない",
+    "category": "trivia",
+    "kind": "research",
+    "summary": "記憶は出来事をそのまま再生する記録ではなく、思い出すたびに再構成される側面があります。",
+    "author": "Elizabeth F. Loftus",
+    "sourceTitle": "Planting misinformation in the human mind: A 30-year investigation of the malleability of memory",
+    "sourceUrl": "https://doi.org/10.1037/0003-066X.58.11.867",
+    "evidence": "査読済みレビュー論文",
+    "confidence": "研究レビュー",
+    "tags": [
+      "心理学",
+      "記憶",
+      "認知",
+      "コミュニケーション"
+    ],
+    "origin": "overseas",
+    "originalTitle": "Planting misinformation in the Human Mind: A 30-Year Investigation of the Malleability of Memory",
+    "sections": [
+      [
+        "記憶は録画ではない",
+        "人の記憶は、出来事を完全な映像として保存し、そのまま再生する仕組みではありません。経験の一部を保持し、知識・期待・後から得た情報などと結びつけて思い出すことがあります。"
+      ],
+      [
+        "後からの情報の影響",
+        "出来事の後に聞いた説明や質問の言い回しが、記憶の報告に影響することがあります。目撃証言研究では、誤情報が後の記憶報告を変える可能性が示されています。"
+      ],
+      [
+        "職場での注意",
+        "「あのとき、あなたはこう言いましたよね」と断定して確認すると、相手の記憶や回答に影響することがあります。重要な決定や引き継ぎは、記憶だけに頼らず、日時・事実・決定事項を記録に残します。"
+      ],
+      [
+        "誤解しないために",
+        "記憶が再構成されるからといって、すべての記憶が信用できないわけではありません。記録・複数の証拠・当時の資料を組み合わせ、個人の記憶だけで責任や事実を断定しないことが大切です。"
+      ]
+    ],
+    "quiz": {
+      "question": "重要な業務上の決定を確認する方法として適切なのは？",
+      "options": [
+        "日時や決定事項を記録で残す",
+        "関係者の記憶だけで断定する",
+        "後から聞いた話を事実とみなす"
+      ],
+      "answer": 0,
+      "explanation": "記憶は後からの情報の影響を受ける場合があるため、記録や複数の証拠を使います。"
+    },
+    "published": "2026-11-17",
+    "updated": "2026-11-17",
+    "minutes": 4,
+    "status": "review",
+    "sourceDate": "",
+    "licenseNote": "原典・公式資料へのリンク。本文は独自の要約・解説であり、原文の転載ではありません。",
+    "image": "assets/articles/trivia-memory-040.svg",
+    "related": [
+      "trivia-deadline-036",
+      "trivia-multitasking-037"
+    ]
   }
 ]

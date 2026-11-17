@@ -1,11 +1,10 @@
-
 name: Validate and publish WORK HACK LIBRARY
 on:
   push:
     branches: [main]
   workflow_dispatch:
   schedule:
-    # 03:00 JST = 18:00 UTC
+    # 03:00 JST = 18:00 UTC (previous day). Scheduled runs may be delayed by GitHub.
     - cron: '0 18 * * *'
 permissions:
   contents: read

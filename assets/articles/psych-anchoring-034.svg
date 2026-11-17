@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="t d">
+<title id="t">アンカリング効果：最初に見た数字が判断の基準になる</title><desc id="d">記事の要点を3段階で整理したオリジナル図解</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#101827"/><stop offset="1" stop-color="#202f46"/></linearGradient><filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".22"/></filter></defs>
+<rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+<circle cx="1080" cy="70" r="180" fill="#C06B9A" opacity=".13"/><circle cx="90" cy="580" r="190" fill="#C06B9A" opacity=".12"/>
+<text x="76" y="86" fill="#C06B9A" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="3">PSYCHOLOGY</text>
+<text x="76" y="158" fill="#FFFFFF" font-family="sans-serif" font-size="38" font-weight="700">アンカリング効果：最初に見た数字が判断の基準になる</text>
+<text x="76" y="202" fill="#B9C7D8" font-family="sans-serif" font-size="21">仕組みを理解し、実務・日常に活かす</text>
+<g filter="url(#shadow)"><rect x="76" y="300" width="300" height="190" rx="24" fill="#FFFFFF" opacity=".97"/></g>
+<circle cx="122" cy="350" r="24" fill="#C06B9A"/><text x="122" y="358" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="22" font-weight="700">1</text>
+<text x="104" y="416" fill="#182333" font-family="sans-serif" font-size="25" font-weight="700">アンカリングとは</text>
+<text x="104" y="454" fill="#536273" font-family="sans-serif" font-size="17">要点をつかむ</text><path d="M386 395 h35 m-12 -12 l12 12 -12 12" stroke="#C06B9A" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="435" y="300" width="300" height="190" rx="24" fill="#FFFFFF" opacity=".97"/></g>
+<circle cx="481" cy="350" r="24" fill="#C06B9A"/><text x="481" y="358" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="22" font-weight="700">2</text>
+<text x="463" y="416" fill="#182333" font-family="sans-serif" font-size="25" font-weight="700">仕事での例</text>
+<text x="463" y="454" fill="#536273" font-family="sans-serif" font-size="17">具体例で理解する</text><path d="M745 395 h35 m-12 -12 l12 12 -12 12" stroke="#C06B9A" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><g filter="url(#shadow)"><rect x="794" y="300" width="300" height="190" rx="24" fill="#FFFFFF" opacity=".97"/></g>
+<circle cx="840" cy="350" r="24" fill="#C06B9A"/><text x="840" y="358" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="22" font-weight="700">3</text>
+<text x="822" y="416" fill="#182333" font-family="sans-serif" font-size="25" font-weight="700">対策</text>
+<text x="822" y="454" fill="#536273" font-family="sans-serif" font-size="17">行動に結びつける</text><text x="76" y="565" fill="#AEBBCD" font-family="sans-serif" font-size="18">WORK HACK LIBRARY  ·  VISUAL NOTE</text>
+<rect x="1000" y="535" width="124" height="42" rx="21" fill="#C06B9A"/><text x="1062" y="563" text-anchor="middle" fill="#FFFFFF" font-family="Arial" font-size="17" font-weight="700">4 MIN READ</text></svg>

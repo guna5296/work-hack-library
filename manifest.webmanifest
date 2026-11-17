@@ -1,0 +1,12 @@
+{
+  "name":"WORK HACK LIBRARY",
+  "short_name":"WORK HACK",
+  "description":"仕事に役立つ知識を蓄積するオフライン対応ライブラリ",
+  "lang":"ja",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#f5f7fb",
+  "theme_color":"#172554",
+  "icons":[{"src":"assets/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

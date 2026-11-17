@@ -1,0 +1,36 @@
+
+name: Validate and publish WORK HACK LIBRARY
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 03:00 JST = 18:00 UTC
+    - cron: '0 18 * * *'
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Validate article data
+        run: python3 scripts/validate_articles.py
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
